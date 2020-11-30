@@ -1,1 +1,2080 @@
-[{"id":"a6faa0d1.3cba9","type":"tab","label":"Main Flow Neodyme","disabled":false,"info":""},{"id":"301a10c.b4d4af","type":"tab","label":"Bot Setup","disabled":false,"info":""},{"id":"3e77687.688db98","type":"tab","label":"Test","disabled":false,"info":""},{"id":"b75eee57.faa9a","type":"tab","label":"tNeoBot","disabled":false,"info":""},{"id":"60e79ebe.afbc1","type":"tab","label":"Water","disabled":false,"info":""},{"id":"45339590.1dc17c","type":"group","z":"a6faa0d1.3cba9","name":"Commandes ! ","style":{"stroke":"#000000","fill":"#b797cf","fill-opacity":"0.4","label":true,"color":"#000000"},"nodes":["236112bc.a112be","4c1820d6.fae0a","f92c6d60.be0f4","2b571c5e.68e874","51fd9c7a.0f69c4","1ff33763.dac9b9","b01f5e88.05377"],"x":44,"y":-1,"w":792,"h":162},{"id":"91d92088.b834d","type":"group","z":"a6faa0d1.3cba9","name":"LED Control","style":{"stroke":"#000000","label":true,"fill":"#ffcf3f","fill-opacity":"0.4","color":"#000000"},"nodes":["a6ee3ae5.8e2a68","6d25a853.234338","7d0ae798.32ee88","b3565342.0a8cb","fc5fe185.f5ef"],"x":44,"y":189,"w":1012,"h":122},{"id":"21533114.9510ee","type":"group","z":"301a10c.b4d4af","name":"Setup Bot","style":{"stroke":"#000000","fill":"#b797cf","fill-opacity":"0.4","label":true,"color":"#000000"},"nodes":["62edefbf.1bb0e","f180e564.8ab328","92c95334.d8722","cbcb7982.7fa178","98d9c384.1eb14","91b03385.b3902","1f814502.19d7eb","f2a86c31.402ab","a061743b.2c0de8","5210afc7.62f49","2fd2f965.552fb6","7c444077.1f17b"],"x":64,"y":19,"w":582,"h":362},{"id":"426afb68.14bd44","type":"group","z":"a6faa0d1.3cba9","name":"","style":{"stroke":"#000000","fill":"#92d04f","fill-opacity":"0.5","label":true},"nodes":["b1e6c5c2.30e9e8","f9c75d00.5a56c","d363ed22.ab187","b4da6bb8.8f6118","c7462b83.f85f18","8b688c28.c8995","98e5d59f.3568a8","edbb0e74.64fac","ff694f31.5da89","4686920d.2cabdc"],"x":44,"y":339,"w":1322,"h":132},{"id":"83fa1ab1.a6de68","type":"group","z":"301a10c.b4d4af","name":"","style":{"stroke":"#000000","fill":"#ffdf7f","fill-opacity":"0.5","label":true},"nodes":["31edd953.bde326","cf43a84b.bc96d8","81f6ac51.e5f38","f367d92.7d3e928","a0cebe5c.7b833"],"x":64,"y":399,"w":502,"h":132},{"id":"55fd86a8.2fbf58","type":"ui_tab","name":"TwitchBot","icon":"dashboard","disabled":false,"hidden":false},{"id":"f261d197.fdec9","type":"mqtt-broker","name":"VPS GervaLab","broker":"51.15.247.189","port":"1883","clientid":"","usetls":false,"compatmode":false,"keepalive":"60","cleansession":true,"birthTopic":"","birthQos":"0","birthPayload":"","closeTopic":"","closeQos":"0","closePayload":"","willTopic":"","willQos":"0","willPayload":""},{"id":"f90d89c1.4a1b18","type":"ui_group","name":"Settings","tab":"55fd86a8.2fbf58","order":1,"disp":true,"width":"6","collapse":false},{"id":"74d72532.9a880c","type":"ui_base","theme":{"name":"theme-dark","lightTheme":{"default":"#0094CE","baseColor":"#0094CE","baseFont":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","edited":true,"reset":false},"darkTheme":{"default":"#097479","baseColor":"#097479","baseFont":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","edited":true,"reset":false},"customTheme":{"name":"Untitled Theme 1","default":"#4B7930","baseColor":"#4B7930","baseFont":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"},"themeState":{"base-color":{"default":"#097479","value":"#097479","edited":false},"page-titlebar-backgroundColor":{"value":"#097479","edited":false},"page-backgroundColor":{"value":"#111111","edited":false},"page-sidebar-backgroundColor":{"value":"#333333","edited":false},"group-textColor":{"value":"#0eb8c0","edited":false},"group-borderColor":{"value":"#555555","edited":false},"group-backgroundColor":{"value":"#333333","edited":false},"widget-textColor":{"value":"#eeeeee","edited":false},"widget-backgroundColor":{"value":"#097479","edited":false},"widget-borderColor":{"value":"#333333","edited":false},"base-font":{"value":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"}},"angularTheme":{"primary":"indigo","accents":"blue","warn":"red","background":"grey"}},"site":{"name":"Node-RED Dashboard","hideToolbar":"false","allowSwipe":"false","lockMenu":"false","allowTempTheme":"true","dateFormat":"DD/MM/YYYY","sizes":{"sx":48,"sy":48,"gx":6,"gy":6,"cx":6,"cy":6,"px":0,"py":0}}},{"id":"cbf67c28.40de1","type":"ui_spacer","name":"spacer","group":"","order":1,"width":6,"height":1},{"id":"bb09b041.d6734","type":"mqtt-broker","name":"Local","broker":"192.168.178.100","port":"1883","clientid":"","usetls":false,"compatmode":false,"keepalive":"60","cleansession":true,"birthTopic":"","birthQos":"0","birthPayload":"","closeTopic":"","closeQos":"0","closePayload":"","willTopic":"","willQos":"0","willPayload":""},{"id":"12312279.a9349e","type":"mqtt-broker","name":"Domo","broker":"192.168.178.150","port":"1883","clientid":"","usetls":false,"compatmode":false,"keepalive":"60","cleansession":true,"birthTopic":"","birthQos":"0","birthPayload":"","closeTopic":"","closeQos":"0","closePayload":"","willTopic":"","willQos":"0","willPayload":""},{"id":"869fdf1e.7b46c","type":"tmi-config","name":"Bot neodyme","username":"tNeodyme","channels":"iooner","reconnect":true,"secure":true,"log_error":true},{"id":"11f35e5.c7bf3a2","type":"websocket-listener","path":"ws://192.168.178.20:4444","wholemsg":"false"},{"id":"d67e89c8.c20208","type":"tmi-config","name":"Bot ioodyme","username":"bot_ioodyme","channels":"ioodyme","reconnect":true,"secure":true,"log_error":true},{"id":"ed8e5d72.2c1b9","type":"ui_tab","name":"Controle","icon":"dashboard","disabled":false,"hidden":false},{"id":"d2f2fd37.59588","type":"ui_group","name":"Robot","tab":"ed8e5d72.2c1b9","order":1,"disp":true,"width":"6","collapse":false},{"id":"b1e6c5c2.30e9e8","type":"tmi-event-cheer","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","config":"d67e89c8.c20208","name":"","x":290,"y":380,"wires":[["f9c75d00.5a56c"]]},{"id":"f9c75d00.5a56c","type":"function","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"Division Bits","func":"msg.payload = Math.ceil(parseInt(msg.payload.userstate.bits)/10); \nreturn msg;\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":470,"y":430,"wires":[["98e5d59f.3568a8"]]},{"id":"d363ed22.ab187","type":"function","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"Fake Bits","func":"msg.payload = {\"channel\":\"#ioodyme\",\"userstate\":{\"badge-info\":{\"founder\":\"1\"},\"badges\":{\"founder\":\"0\",\"hype-train\":\"1\"},\"bits\":\"100\",\"color\":\"#FF0000\",\"display-name\":\"Ralmn\",\"emotes\":null,\"flags\":null,\"id\":\"cf26d120-bdf4-4118-a16f-c90666206ab4\",\"mod\":false,\"room-id\":\"564492369\",\"subscriber\":false,\"tmi-sent-ts\":\"1598559677346\",\"turbo\":false,\"user-id\":\"23387833\",\"user-type\":null,\"emotes-raw\":null,\"badge-info-raw\":\"founder/1\",\"badges-raw\":\"founder/0,hype-train/1\",\"username\":\"ralmn\"},\"message\":\"Cheer1 oui\"};\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":300,"y":430,"wires":[["f9c75d00.5a56c"]]},{"id":"b4da6bb8.8f6118","type":"inject","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":150,"y":430,"wires":[["d363ed22.ab187"]]},{"id":"236112bc.a112be","type":"tmi-event-message","z":"a6faa0d1.3cba9","g":"45339590.1dc17c","config":"d67e89c8.c20208","name":"Chat ","channels_filter":"ioodyme","users_filter":"","action":false,"chat":true,"whisper":false,"regular":true,"mod":true,"subscriber":true,"broadcaster":true,"message_regexp":"!","message_flags":"","x":120,"y":40,"wires":[["51fd9c7a.0f69c4"]]},{"id":"4c1820d6.fae0a","type":"function","z":"a6faa0d1.3cba9","g":"45339590.1dc17c","name":"!rs","func":"let input = msg.payload.cmd;\nlet out;\nif(input[0] === \"!rs\"){\n    \n    if(global.get(\"NEODYME\")===true){\n    out = \"Les réseaux sociaux de Neodyme sont : \";\n    out += \"[Youtube : https://www.youtube.com/channel/UC1_EQJyvyeaukrLKVunejgw] \"\n    out += \"[Twitter : https://twitter.com/tNeodyme] \";\n    out += \"[Github : https://github.com/n3odym3]\";\n    msg.payload.message = out;\n    node.send(msg);\n    }\n    \n    if(global.get(\"IOONER\")===true){\n    out = \"Les réseaux sociaux de iooner sont : \";\n    out += \"[Twitter : https://twitter.com/iooner] \";\n    out += \"[Github : https://github.com/iooner]\";\n    msg.payload.message = out;\n    node.send(msg);\n    }\n    \n}","outputs":1,"noerr":0,"initialize":"","finalize":"","x":520,"y":80,"wires":[["f92c6d60.be0f4"]]},{"id":"f92c6d60.be0f4","type":"tmi-command-action","z":"a6faa0d1.3cba9","g":"45339590.1dc17c","config":"d67e89c8.c20208","name":"","x":690,"y":40,"wires":[[],[]]},{"id":"2b571c5e.68e874","type":"function","z":"a6faa0d1.3cba9","g":"45339590.1dc17c","name":"!help","func":"let input = msg.payload.cmd;\n\nif(input[0] === \"!help\"){\n    msg.payload={\n        \"channel\": \"ioodyme\",\n        \"message\": \"Les commandes actuellement disponibles sont : \",\n    }\n    \n    msg.payload.message += \"[!rs] \";\n    \n    if(global.get(\"LED\") === true){\n       msg.payload.message += \"[!led] \"; \n    }\n    \n    if(global.get(\"PLOTTER\") === true){\n       msg.payload.message += \"[!plot] \"; \n    }\n    \n    return msg;\n}","outputs":1,"noerr":0,"initialize":"","finalize":"","x":520,"y":40,"wires":[["f92c6d60.be0f4"]]},{"id":"51fd9c7a.0f69c4","type":"function","z":"a6faa0d1.3cba9","g":"45339590.1dc17c","name":"CMD + Channel","func":"msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\nmsg.payload.channel = \"ioodyme\"\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":340,"y":40,"wires":[["2b571c5e.68e874","4c1820d6.fae0a","1ff33763.dac9b9","b01f5e88.05377"]]},{"id":"a6ee3ae5.8e2a68","type":"function","z":"a6faa0d1.3cba9","g":"91d92088.b834d","name":"LED Random","func":"Vote = flow.get(\"LEDVote\")|| [];\nRGBlock = flow.get('RGBlock')||false;\n\nfunction randomInteger(min, max) {\n   return Math.floor(Math.random() * (max - min) + min);\n}\n\n\nif(Vote[0] !== undefined){\n    CMD = randomInteger(0,Vote.length);\n    msg.payload = {\"Slot\":parseInt(Vote[CMD][0]), \"R\":parseInt(Vote[CMD][1]), \"G\":parseInt(Vote[CMD][2]), \"B\":parseInt(Vote[CMD][3])}\n    flow.set(\"LEDVote\", []);\n    return msg\n}\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":350,"y":230,"wires":[["6d25a853.234338","b3565342.0a8cb"]]},{"id":"6d25a853.234338","type":"mqtt out","z":"a6faa0d1.3cba9","g":"91d92088.b834d","name":"","topic":"domotique/kallax/sk6812","qos":"","retain":"","broker":"12312279.a9349e","x":920,"y":230,"wires":[]},{"id":"7d0ae798.32ee88","type":"inject","z":"a6faa0d1.3cba9","g":"91d92088.b834d","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"5","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":160,"y":230,"wires":[["a6ee3ae5.8e2a68"]]},{"id":"1ff33763.dac9b9","type":"function","z":"a6faa0d1.3cba9","g":"45339590.1dc17c","name":"!led ","func":"let input = msg.payload.cmd;\nlet LEDVote = flow.get(\"LEDVote\")|| [];\nusername = msg.payload.userstate.username;\ngens_polis = global.get('GENSPOLIS')||[];\nsoleil = global.get(\"BonjourBonsoir\");\n\nlet colors = {\n  \"aliceblue\": [240, 248, 255, 1],\n  \"antiquewhite\": [250, 235, 215, 1],\n  \"aqua\": [0, 255, 255, 1],\n  \"aquamarine\": [127, 255, 212, 1],\n  \"azure\": [240, 255, 255, 1],\n  \"beige\": [245, 245, 220, 1],\n  \"bisque\": [255, 228, 196, 1],\n  \"black\": [0, 0, 0, 1],\n  \"blanchedalmond\": [255, 235, 205, 1],\n  \"blue\": [0, 0, 255, 1],\n  \"blueviolet\": [138, 43, 226, 1],\n  \"brown\": [165, 42, 42, 1],\n  \"burlywood\": [222, 184, 135, 1],\n  \"cadetblue\": [95, 158, 160, 1],\n  \"chartreuse\": [127, 255, 0, 1],\n  \"chocolate\": [210, 105, 30, 1],\n  \"coral\": [255, 127, 80, 1],\n  \"cornflowerblue\": [100, 149, 237, 1],\n  \"cornsilk\": [255, 248, 220, 1],\n  \"crimson\": [220, 20, 60, 1],\n  \"cyan\": [0, 255, 255, 1],\n  \"darkblue\": [0, 0, 139, 1],\n  \"darkcyan\": [0, 139, 139, 1],\n  \"darkgoldenrod\": [184, 134, 11, 1],\n  \"darkgray\": [169, 169, 169, 1],\n  \"darkgreen\": [0, 100, 0, 1],\n  \"darkgrey\": [169, 169, 169, 1],\n  \"darkkhaki\": [189, 183, 107, 1],\n  \"darkmagenta\": [139, 0, 139, 1],\n  \"darkolivegreen\": [85, 107, 47, 1],\n  \"darkorange\": [255, 140, 0, 1],\n  \"darkorchid\": [153, 50, 204, 1],\n  \"darkred\": [139, 0, 0, 1],\n  \"darksalmon\": [233, 150, 122, 1],\n  \"darkseagreen\": [143, 188, 143, 1],\n  \"darkslateblue\": [72, 61, 139, 1],\n  \"darkslategray\": [47, 79, 79, 1],\n  \"darkslategrey\": [47, 79, 79, 1],\n  \"darkturquoise\": [0, 206, 209, 1],\n  \"darkviolet\": [148, 0, 211, 1],\n  \"deeppink\": [255, 20, 147, 1],\n  \"deepskyblue\": [0, 191, 255, 1],\n  \"dimgray\": [105, 105, 105, 1],\n  \"dimgrey\": [105, 105, 105, 1],\n  \"dodgerblue\": [30, 144, 255, 1],\n  \"firebrick\": [178, 34, 34, 1],\n  \"floralwhite\": [255, 250, 240, 1],\n  \"forestgreen\": [34, 139, 34, 1],\n  \"fuchsia\": [255, 0, 255, 1],\n  \"gainsboro\": [220, 220, 220, 1],\n  \"ghostwhite\": [248, 248, 255, 1],\n  \"gold\": [255, 215, 0, 1],\n  \"goldenrod\": [218, 165, 32, 1],\n  \"gray\": [128, 128, 128, 1],\n  \"green\": [0, 128, 0, 1],\n  \"greenyellow\": [173, 255, 47, 1],\n  \"grey\": [128, 128, 128, 1],\n  \"honeydew\": [240, 255, 240, 1],\n  \"hotpink\": [255, 105, 180, 1],\n  \"indianred\": [205, 92, 92, 1],\n  \"indigo\": [75, 0, 130, 1],\n  \"ivory\": [255, 255, 240, 1],\n  \"khaki\": [240, 230, 140, 1],\n  \"lavender\": [230, 230, 250, 1],\n  \"lavenderblush\": [255, 240, 245, 1],\n  \"lawngreen\": [124, 252, 0, 1],\n  \"lemonchiffon\": [255, 250, 205, 1],\n  \"lightblue\": [173, 216, 230, 1],\n  \"lightcoral\": [240, 128, 128, 1],\n  \"lightcyan\": [224, 255, 255, 1],\n  \"lightgoldenrodyellow\": [250, 250, 210, 1],\n  \"lightgray\": [211, 211, 211, 1],\n  \"lightgreen\": [144, 238, 144, 1],\n  \"lightgrey\": [211, 211, 211, 1],\n  \"lightpink\": [255, 182, 193, 1],\n  \"lightsalmon\": [255, 160, 122, 1],\n  \"lightseagreen\": [32, 178, 170, 1],\n  \"lightskyblue\": [135, 206, 250, 1],\n  \"lightslategray\": [119, 136, 153, 1],\n  \"lightslategrey\": [119, 136, 153, 1],\n  \"lightsteelblue\": [176, 196, 222, 1],\n  \"lightyellow\": [255, 255, 224, 1],\n  \"lime\": [0, 255, 0, 1],\n  \"limegreen\": [50, 205, 50, 1],\n  \"linen\": [250, 240, 230, 1],\n  \"magenta\": [255, 0, 255, 1],\n  \"maroon\": [128, 0, 0, 1],\n  \"mediumaquamarine\": [102, 205, 170, 1],\n  \"mediumblue\": [0, 0, 205, 1],\n  \"mediumorchid\": [186, 85, 211, 1],\n  \"mediumpurple\": [147, 112, 219, 1],\n  \"mediumseagreen\": [60, 179, 113, 1],\n  \"mediumslateblue\": [123, 104, 238, 1],\n  \"mediumspringgreen\": [0, 250, 154, 1],\n  \"mediumturquoise\": [72, 209, 204, 1],\n  \"mediumvioletred\": [199, 21, 133, 1],\n  \"midnightblue\": [25, 25, 112, 1],\n  \"mintcream\": [245, 255, 250, 1],\n  \"mistyrose\": [255, 228, 225, 1],\n  \"moccasin\": [255, 228, 181, 1],\n  \"navajowhite\": [255, 222, 173, 1],\n  \"navy\": [0, 0, 128, 1],\n  \"oldlace\": [253, 245, 230, 1],\n  \"olive\": [128, 128, 0, 1],\n  \"olivedrab\": [107, 142, 35, 1],\n  \"orange\": [255, 165, 0, 1],\n  \"orangered\": [255, 69, 0, 1],\n  \"orchid\": [218, 112, 214, 1],\n  \"palegoldenrod\": [238, 232, 170, 1],\n  \"palegreen\": [152, 251, 152, 1],\n  \"paleturquoise\": [175, 238, 238, 1],\n  \"palevioletred\": [219, 112, 147, 1],\n  \"papayawhip\": [255, 239, 213, 1],\n  \"peachpuff\": [255, 218, 185, 1],\n  \"peru\": [205, 133, 63, 1],\n  \"pink\": [255, 192, 203, 1],\n  \"plum\": [221, 160, 221, 1],\n  \"powderblue\": [176, 224, 230, 1],\n  \"purple\": [128, 0, 128, 1],\n  \"red\": [255, 0, 0, 1],\n  \"rosybrown\": [188, 143, 143, 1],\n  \"royalblue\": [65, 105, 225, 1],\n  \"saddlebrown\": [139, 69, 19, 1],\n  \"salmon\": [250, 128, 114, 1],\n  \"sandybrown\": [244, 164, 96, 1],\n  \"seagreen\": [46, 139, 87, 1],\n  \"seashell\": [255, 245, 238, 1],\n  \"sienna\": [160, 82, 45, 1],\n  \"silver\": [192, 192, 192, 1],\n  \"skyblue\": [135, 206, 235, 1],\n  \"slateblue\": [106, 90, 205, 1],\n  \"slategray\": [112, 128, 144, 1],\n  \"slategrey\": [112, 128, 144, 1],\n  \"snow\": [255, 250, 250, 1],\n  \"springgreen\": [0, 255, 127, 1],\n  \"steelblue\": [70, 130, 180, 1],\n  \"tan\": [210, 180, 140, 1],\n  \"teal\": [0, 128, 128, 1],\n  \"thistle\": [216, 191, 216, 1],\n  \"tomato\": [255, 99, 71, 1],\n  \"transparent\": [0, 0, 0, 0],\n  \"turquoise\": [64, 224, 208, 1],\n  \"violet\": [238, 130, 238, 1],\n  \"wheat\": [245, 222, 179, 1],\n  \"white\": [255, 255, 255, 1],\n  \"whitesmoke\": [245, 245, 245, 1],\n  \"yellow\": [255, 255, 0, 1],\n  \"yellowgreen\": [154, 205, 50, 1],\n  \"rebeccapurple\": [102, 51, 153, 1]\n}\n\nfunction hexToRGB(h) {\n  let out = {\"r\":0,\"g\":0,\"b\":0};\n  // 3 digits\n  if (h.length == 4) {\n    out.r = parseInt(\"0x\" + h[1] + h[1]);\n    out.g = parseInt(\"0x\" + h[2] + h[2]);\n    out.b = parseInt(\"0x\" + h[3] + h[3]);\n  // 6 digits\n  } else if (h.length == 7) {\n    out.r = parseInt(\"0x\" + h[1] + h[2]);\n    out.g = parseInt(\"0x\" + h[3] + h[4]);\n    out.b = parseInt(\"0x\" + h[5] + h[6]);\n  }\n  return out;\n}\n\nfunction HSVtoRGB(h, s, v) {\n    var r, g, b, i, f, p, q, t;\n    if (arguments.length === 1) {\n        s = h.s, v = h.v, h = h.h;\n    }\n    i = Math.floor(h * 6);\n    f = h * 6 - i;\n    p = v * (1 - s);\n    q = v * (1 - f * s);\n    t = v * (1 - (1 - f) * s);\n    switch (i % 6) {\n        case 0: r = v, g = t, b = p; break;\n        case 1: r = q, g = v, b = p; break;\n        case 2: r = p, g = v, b = t; break;\n        case 3: r = p, g = q, b = v; break;\n        case 4: r = t, g = p, b = v; break;\n        case 5: r = v, g = p, b = q; break;\n    }\n    return {\n        r: Math.round(r * 255),\n        g: Math.round(g * 255),\n        b: Math.round(b * 255)\n    };\n}\n\nfunction randomInteger(min, max) {\n   return Math.floor(Math.random() * (max - min) + min);\n}\n\nif(input[0]===\"!led\" && global.get('LED')===false){\n    msg.payload.message = \"Désolé, les LED ne sont actuellement pas activées :(\";\n    return msg\n}\n\nif(input[0]===\"!led\" && !gens_polis.includes(username) && soleil === 0){\n    msg.payload.message = \"WOW @\" + username + \" même pas un bonsoir ?\";\n    return msg   \n}\n\nif(input[0]===\"!led\" && !gens_polis.includes(username) && soleil === 1){\n    msg.payload.message = \"WOW @\" + username + \" même pas un bonjour ?\";\n    return msg   \n}\n\nif(input[0]===\"!led\" && global.get('LED')===true){\n    if(input.length < 3 || (input.length > 3 && input.length<5)){\n        msg.payload.message = \"Commande incomplète rajoutez le slot et la valeur RGB Ex : !led 1 red ou !led 1 #FF0000 ou !led 1 255 0 0\";\n        return msg\n    } \n    \n    if (input.length === 3){\n        let rgb={\"r\":0,\"g\":0,\"b\":0};\n        \n        if(input[2][0]===\"#\"){\n            rgb = hexToRGB(input[2]);\n        }\n        \n        else if(input[2]===\"random\"){\n            rgb = HSVtoRGB(randomInteger(0,100)/100,1,1);\n        }\n        else{\n            rgb.r = colors[input[2]][0];\n            rgb.g = colors[input[2]][1];\n            rgb.b = colors[input[2]][2];\n        }\n        \n        LEDVote.push([input[1],rgb.r, rgb.g, rgb.b]);\n        flow.set(\"LEDVote\", LEDVote); \n    }\n    \n    else{\n        LEDVote.push([input[1], input[2], input[3], input[4]]);\n        flow.set(\"LEDVote\", LEDVote); \n        msg.payload = LEDVote;\n        return msg\n    }\n}\n\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":520,"y":120,"wires":[["f92c6d60.be0f4"]]},{"id":"7686899c.98e288","type":"inject","z":"a6faa0d1.3cba9","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":160,"y":640,"wires":[["7dfa3e7c.87c45"]]},{"id":"7dfa3e7c.87c45","type":"function","z":"a6faa0d1.3cba9","name":"Roue RGB","func":"del = 0;\ndelay = 200;\n\nmsg.block = true;\nnode.send(msg);\n\nfor(i=1; i<5; i++){\n    msg.payload = {\"Slot\":i, \"R\":255, \"G\":0, \"B\":0};\n    del += delay;\n    msg.delay = del;\n    node.send(msg); \n}\nfor(i=1; i<5; i++){\n    msg.payload = {\"Slot\":i, \"R\":0, \"G\":255, \"B\":0};\n    del += delay;\n    msg.delay = del;\n    node.send(msg); \n}\nfor(i=1; i<5; i++){\n    msg.payload = {\"Slot\":i, \"R\":0, \"G\":0, \"B\":255};\n    del += delay;\n    msg.delay = del;\n    node.send(msg); \n}\nfor(i=1; i<5; i++){\n    msg.payload = {\"Slot\":i, \"R\":0, \"G\":0, \"B\":0,\"W\":255};\n    del += delay;\n    msg.delay = del;\n    node.send(msg); \n}\nmsg.block = false;\nnode.send(msg);\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":330,"y":640,"wires":[["1622233f.4205ad"]]},{"id":"1622233f.4205ad","type":"delay","z":"a6faa0d1.3cba9","name":"","pauseType":"delayv","timeout":"1","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":480,"y":640,"wires":[["e92ecdd1.c1fbd","51356839.a0fcf8"]]},{"id":"e92ecdd1.c1fbd","type":"mqtt out","z":"a6faa0d1.3cba9","name":"","topic":"domotique/kallax/sk6812","qos":"","retain":"","broker":"12312279.a9349e","x":720,"y":640,"wires":[]},{"id":"51356839.a0fcf8","type":"function","z":"a6faa0d1.3cba9","name":"RGBlock","func":"flow.set('RGBlock', msg.block);\nmsg.payload = msg.block;\nreturn msg;\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":670,"y":690,"wires":[[]]},{"id":"62edefbf.1bb0e","type":"ui_switch","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"LED","label":"LED","tooltip":"","group":"f90d89c1.4a1b18","order":1,"width":2,"height":1,"passthru":true,"decouple":"false","topic":"LED","style":"","onvalue":"true","onvalueType":"bool","onicon":"","oncolor":"","offvalue":"false","offvalueType":"bool","officon":"","offcolor":"","x":170,"y":60,"wires":[["f180e564.8ab328"]]},{"id":"f180e564.8ab328","type":"function","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"global Set","func":"global.set(msg.topic, msg.payload);","outputs":1,"noerr":0,"initialize":"","finalize":"","x":360,"y":110,"wires":[[]]},{"id":"92c95334.d8722","type":"tmi-command-say","z":"301a10c.b4d4af","g":"21533114.9510ee","config":"869fdf1e.7b46c","name":"Set Color","x":560,"y":280,"wires":[[],[]]},{"id":"cbcb7982.7fa178","type":"function","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"Set Bot Color","func":"msg.payload={\n \"channel\": \"ioodyme\",\n\"message\": \"/color green\",\n    }\n   return msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":360,"y":280,"wires":[["92c95334.d8722"]]},{"id":"98d9c384.1eb14","type":"ui_switch","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"Neodyme","label":"Neodyme","tooltip":"","group":"f90d89c1.4a1b18","order":4,"width":3,"height":1,"passthru":true,"decouple":"false","topic":"NEODYME","style":"","onvalue":"true","onvalueType":"bool","onicon":"","oncolor":"","offvalue":"false","offvalueType":"bool","officon":"","offcolor":"","x":180,"y":110,"wires":[["f180e564.8ab328"]]},{"id":"91b03385.b3902","type":"ui_switch","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"iooner","label":"iooner","tooltip":"","group":"f90d89c1.4a1b18","order":5,"width":3,"height":1,"passthru":true,"decouple":"false","topic":"IOONER","style":"","onvalue":"true","onvalueType":"bool","onicon":"","oncolor":"","offvalue":"false","offvalueType":"bool","officon":"","offcolor":"","x":170,"y":160,"wires":[["f180e564.8ab328"]]},{"id":"1f814502.19d7eb","type":"ui_button","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"","group":"f90d89c1.4a1b18","order":5,"width":0,"height":0,"passthru":false,"label":"Init Bot","tooltip":"","color":"","bgcolor":"","icon":"","payload":"","payloadType":"str","topic":"","x":180,"y":280,"wires":[["cbcb7982.7fa178","7c444077.1f17b"]]},{"id":"c7462b83.f85f18","type":"mqtt out","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"","topic":"domotique/kallax/sk6812","qos":"","retain":"","broker":"12312279.a9349e","x":1230,"y":430,"wires":[]},{"id":"8b688c28.c8995","type":"delay","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"","pauseType":"delayv","timeout":"5","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":830,"y":430,"wires":[["edbb0e74.64fac"]]},{"id":"98e5d59f.3568a8","type":"function","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"Multiplication msg","func":"delay = 500;\nmsg.delay = 0;\nfor(i=0;i<msg.payload;i++){\n    node.send(msg);\n    msg.delay += delay;\n}","outputs":1,"noerr":0,"initialize":"","finalize":"","x":650,"y":430,"wires":[["8b688c28.c8995"]]},{"id":"a626b44a.015c48","type":"debug","z":"a6faa0d1.3cba9","name":"","active":false,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":1190,"y":950,"wires":[]},{"id":"edbb0e74.64fac","type":"function","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"Random Color","func":"function randomInteger(min, max) {\n   return Math.floor(Math.random() * (max - min) + min);\n}\n\nfunction HSVtoRGB(h, s, v) {\n    var r, g, b, i, f, p, q, t;\n    if (arguments.length === 1) {\n        s = h.s, v = h.v, h = h.h;\n    }\n    i = Math.floor(h * 6);\n    f = h * 6 - i;\n    p = v * (1 - s);\n    q = v * (1 - f * s);\n    t = v * (1 - (1 - f) * s);\n    switch (i % 6) {\n        case 0: r = v, g = t, b = p; break;\n        case 1: r = q, g = v, b = p; break;\n        case 2: r = p, g = v, b = t; break;\n        case 3: r = p, g = q, b = v; break;\n        case 4: r = t, g = p, b = v; break;\n        case 5: r = v, g = p, b = q; break;\n    }\n    return {\n        r: Math.round(r * 255),\n        g: Math.round(g * 255),\n        b: Math.round(b * 255)\n    };\n}\n\nRGB = HSVtoRGB(randomInteger(0,100)/100,1,1);\n//msg.payload = RGB;\nmsg.payload = {\"Slot\": 1234, \"R\": RGB.r, \"G\":RGB.g, \"B\":RGB.b}\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":1000,"y":430,"wires":[["c7462b83.f85f18","ff694f31.5da89"]]},{"id":"ff694f31.5da89","type":"debug","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"","active":false,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":1210,"y":390,"wires":[]},{"id":"4686920d.2cabdc","type":"inject","z":"a6faa0d1.3cba9","g":"426afb68.14bd44","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":830,"y":390,"wires":[["edbb0e74.64fac"]]},{"id":"b3565342.0a8cb","type":"function","z":"a6faa0d1.3cba9","g":"91d92088.b834d","name":"Stream state","func":"if(global.get('STREAMON')=== false){\n    msg.payload = {\"Slot\":1234, \"R\":0, \"G\":0, \"B\":0}\n    return msg;\n}\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":540,"y":270,"wires":[["fc5fe185.f5ef"]]},{"id":"fc5fe185.f5ef","type":"delay","z":"a6faa0d1.3cba9","g":"91d92088.b834d","name":"","pauseType":"delay","timeout":"5","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":700,"y":270,"wires":[["6d25a853.234338"]]},{"id":"f2a86c31.402ab","type":"ui_switch","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"Stream ON","label":"Stream ON","tooltip":"","group":"f90d89c1.4a1b18","order":5,"width":3,"height":1,"passthru":true,"decouple":"false","topic":"STREAMON","style":"","onvalue":"true","onvalueType":"bool","onicon":"","oncolor":"","offvalue":"false","offvalueType":"bool","officon":"","offcolor":"","x":180,"y":220,"wires":[["f180e564.8ab328","a061743b.2c0de8"]]},{"id":"a061743b.2c0de8","type":"mqtt out","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"","topic":"StreamON","qos":"","retain":"","broker":"bb09b041.d6734","x":360,"y":220,"wires":[]},{"id":"b01f5e88.05377","type":"debug","z":"a6faa0d1.3cba9","g":"45339590.1dc17c","name":"","active":false,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":720,"y":110,"wires":[]},{"id":"31edd953.bde326","type":"sunrise","z":"301a10c.b4d4af","g":"83fa1ab1.a6de68","name":"","lat":"50.645515","lon":"5.574038","start":"sunriseEnd","end":"sunset","soff":0,"eoff":0,"x":160,"y":440,"wires":[["cf43a84b.bc96d8"],[]]},{"id":"cf43a84b.bc96d8","type":"function","z":"301a10c.b4d4af","g":"83fa1ab1.a6de68","name":"Il est où le soleil ?","func":"global.set(\"BonjourBonsoir\", msg.payload);\nreturn msg;\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":340,"y":440,"wires":[[]]},{"id":"5210afc7.62f49","type":"inject","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":170,"y":340,"wires":[["cbcb7982.7fa178"]]},{"id":"7c444077.1f17b","type":"function","z":"301a10c.b4d4af","g":"21533114.9510ee","name":"Reset Gens polis","func":"global.set('GENSPOLIS',[]);\n\nmsg.payload = {\n    \"channel\" : \"ioodyme\",\n    \"message\" : \"J'ai complètement oublié qui était poli ou non ? :/\"\n}\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":380,"y":330,"wires":[["2fd2f965.552fb6"]]},{"id":"2fd2f965.552fb6","type":"tmi-command-action","z":"301a10c.b4d4af","g":"21533114.9510ee","config":"869fdf1e.7b46c","name":"","x":550,"y":330,"wires":[[],[]]},{"id":"340762d3.c668ae","type":"websocket out","z":"3e77687.688db98","name":"","server":"11f35e5.c7bf3a2","client":"","x":640,"y":350,"wires":[]},{"id":"95897321.de8bb","type":"websocket in","z":"3e77687.688db98","name":"","server":"11f35e5.c7bf3a2","client":"","x":240,"y":230,"wires":[["6f431f29.72163"]]},{"id":"46b43133.f8dbf","type":"debug","z":"3e77687.688db98","name":"","active":false,"tosidebar":true,"console":false,"tostatus":false,"complete":"payload","targetType":"msg","statusVal":"","statusType":"auto","x":680,"y":230,"wires":[]},{"id":"7b30366e.d81c98","type":"inject","z":"3e77687.688db98","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":330,"wires":[["6eaae900.3bd618"]]},{"id":"6f431f29.72163","type":"function","z":"3e77687.688db98","name":"Parse payload","func":"msg.payload = JSON.parse(msg.payload);\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":490,"y":230,"wires":[["46b43133.f8dbf"]]},{"id":"1962b902.f643f7","type":"inject","z":"3e77687.688db98","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":290,"wires":[["38deb395.44088c"]]},{"id":"38deb395.44088c","type":"function","z":"3e77687.688db98","name":"ON","func":"msg.payload = {\n    \"request-type\":\"EnableStudioMode\",\n    \"message-id\": msg._msgid\n};\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":400,"y":290,"wires":[["340762d3.c668ae"]]},{"id":"6eaae900.3bd618","type":"function","z":"3e77687.688db98","name":"OFF","func":"msg.payload = {\n    \"request-type\":\"DisableStudioMode\",\n    \"message-id\": msg._msgid\n};\nreturn msg;\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":400,"y":330,"wires":[["340762d3.c668ae"]]},{"id":"f4968e86.b58fd","type":"inject","z":"3e77687.688db98","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":390,"wires":[["cfbb1b01.fee528"]]},{"id":"cfbb1b01.fee528","type":"function","z":"3e77687.688db98","name":"OFF","func":"msg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"Périphérique de capture vidéo\"},\n    \"scene-name\": \"Scène\",\n    \"visible\":false,\n    \"message-id\": msg._msgid\n};\nreturn msg;\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":400,"y":390,"wires":[["340762d3.c668ae"]]},{"id":"18e8daf1.f6a535","type":"function","z":"3e77687.688db98","name":"ON","func":"msg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"Périphérique de capture vidéo\"},\n    \"visible\":true,\n    \"message-id\": msg._msgid\n};\nreturn msg;\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":400,"y":430,"wires":[["340762d3.c668ae"]]},{"id":"57be47f0.84a448","type":"inject","z":"3e77687.688db98","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":430,"wires":[["18e8daf1.f6a535"]]},{"id":"d1b8a6be.6e0498","type":"inject","z":"3e77687.688db98","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":190,"y":490,"wires":[["33c9eb8a.7cedf4"]]},{"id":"33c9eb8a.7cedf4","type":"function","z":"3e77687.688db98","name":"Set","func":"cmd = msg.payload;\nmsg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"ESPCam1\"},\n    \"scene-name\": \"Capture Ecran\",\n    \"visible\": true,\n    \"message-id\": msg._msgid\n};\n\nif(cmd.action === \"off\"){\n   msg.payload.visible = false; \n}\nif(cmd.action === \"on\"){\n   msg.payload.visible = true; \n}\n\nreturn msg;\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":420,"y":480,"wires":[["340762d3.c668ae"]]},{"id":"6c53d551.5fd52c","type":"mqtt in","z":"3e77687.688db98","name":"","topic":"zigbee2mqtt/0x842e14fffe73fa33","qos":"2","datatype":"json","broker":"12312279.a9349e","x":220,"y":590,"wires":[["33c9eb8a.7cedf4"]]},{"id":"3fd9d082.eb8c2","type":"tmi-event-message","z":"3e77687.688db98","config":"d67e89c8.c20208","name":"Chat ","channels_filter":"ioodyme","users_filter":"","action":false,"chat":true,"whisper":false,"regular":true,"mod":true,"subscriber":true,"broadcaster":true,"message_regexp":"!","message_flags":"","x":100,"y":710,"wires":[["afdb2ab9.7621c8"]]},{"id":"afdb2ab9.7621c8","type":"function","z":"3e77687.688db98","name":"CMD + Channel","func":"msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\nmsg.payload.channel = \"ioodyme\"\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":420,"y":710,"wires":[[]]},{"id":"4799dfaf.ef419","type":"function","z":"3e77687.688db98","name":"!led ","func":"let input = msg.payload.cmd;\nlet out;\nif(input[0] === \"!cam\"){\n    if(input[1]=== \"on\"){\n        msg.payload.action = \"on\";\n        global.set('CAM', true);\n        return msg;\n    }\n    if(input[1]=== \"off\"){\n        msg.payload.action = \"off\";\n        global.set('CAM', false);\n        return msg;\n    }\n}","outputs":1,"noerr":0,"initialize":"","finalize":"","x":610,"y":830,"wires":[[]]},{"id":"858d13ee.f21f9","type":"websocket out","z":"3e77687.688db98","name":"","server":"11f35e5.c7bf3a2","client":"","x":610,"y":770,"wires":[]},{"id":"8a672f84.f73ea","type":"function","z":"3e77687.688db98","name":"Set","func":"Cam = !global.get('CAM')||false;\n\nmsg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"ESPCam1\"},\n    \"scene-name\": \"Desk Elec\",\n    \"visible\": Cam,\n    \"message-id\": msg._msgid\n};\n\nglobal.set('CAM', Cam);\nmsg.payload.visible = Cam;\n\nreturn msg;\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":400,"y":770,"wires":[["858d13ee.f21f9"]]},{"id":"67dabed9.fdfc9","type":"ui_button","z":"3e77687.688db98","name":"","group":"f90d89c1.4a1b18","order":5,"width":0,"height":0,"passthru":true,"label":"button","tooltip":"","color":"","bgcolor":"","icon":"","payload":"","payloadType":"str","topic":"","x":280,"y":770,"wires":[["8a672f84.f73ea"]]},{"id":"58f850e.71c99b","type":"mqtt in","z":"3e77687.688db98","name":"","topic":"zigbee2mqtt/0xbc33acfffe82c358","qos":"2","datatype":"json","broker":"12312279.a9349e","x":220,"y":660,"wires":[["67dabed9.fdfc9"]]},{"id":"81f6ac51.e5f38","type":"tmi-event-message","z":"301a10c.b4d4af","g":"83fa1ab1.a6de68","config":"d67e89c8.c20208","name":"Chat ","channels_filter":"ioodyme","users_filter":"","action":false,"chat":true,"whisper":false,"regular":true,"mod":true,"subscriber":true,"broadcaster":true,"message_regexp":"@bot_ioodyme","message_flags":"","x":140,"y":490,"wires":[["f367d92.7d3e928"]]},{"id":"f367d92.7d3e928","type":"function","z":"301a10c.b4d4af","g":"83fa1ab1.a6de68","name":"Bonjour/Bonsoir ?","func":"message = msg.payload.message.toLowerCase().split(\" \");\nusername = msg.payload.userstate.username;\ngens_polis = global.get('GENSPOLIS')||[];\nsoleil = global.get(\"BonjourBonsoir\");\n\nindexbonjour = message.indexOf(\"bonjour\");\nindexbonsoir = message.indexOf(\"bonsoir\");\n\nif (indexbonjour === 0 || indexbonjour === 1){\n    if(soleil === 0){\n    msg.payload.message = \"Euh ?? @\" + username + \"C'est le soir en fait...on dit Bonsoir !\";\n    return msg;  \n    }\n    \n    else{\n        if(gens_polis.includes(username)){\n            msg.payload.message = \"Non mais c'est bon @\" + username + \" On va pas se saluer tout le live\";\n            return msg;  \n        }\n        else{\n           msg.payload.message = \"Salut @\" + username + \" !\"; \n           gens_polis.push(username);\n           global.set('GENSPOLIS', gens_polis);\n        }\n    return msg;  \n    }\n}\n\nif (indexbonsoir=== 0 || indexbonsoir === 1){\n    if(soleil === 1){\n    msg.payload.message = \"Euh ?? @\" + unsername + \"C'est le jour en fait...on dit Bonjour !\";\n    return msg;  \n    }\n    else{\n        if(gens_polis.includes(username)){\n            msg.payload.message = \"Non mais c'est bon @\" + username + \" On va pas se saluer tout le live\";\n            return msg;  \n        }\n        else{\n        msg.payload.message = \"Salut @\" + username;\n        gens_polis.push(username);\n        global.set('GENSPOLIS', gens_polis);\n        return msg;  \n    }\n}\n}\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":310,"y":490,"wires":[["a0cebe5c.7b833"]]},{"id":"a0cebe5c.7b833","type":"tmi-command-action","z":"301a10c.b4d4af","g":"83fa1ab1.a6de68","config":"d67e89c8.c20208","name":"","x":490,"y":490,"wires":[[],[]]},{"id":"361d5d05.c57bd2","type":"tmi-command-say","z":"b75eee57.faa9a","config":"869fdf1e.7b46c","name":"Message","x":1210,"y":870,"wires":[[],[]]},{"id":"47b92d76.12d854","type":"inject","z":"b75eee57.faa9a","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":550,"y":870,"wires":[["4a931e13.25b58"]]},{"id":"4a931e13.25b58","type":"function","z":"b75eee57.faa9a","name":"","func":"msg.payload = {\n    \"channel\" : \"iooner\",\n    \"message\" : \"Bonjour\"\n}\n\nfor(i=0; i<12;i++){\n    for(j=0; j<12;j++){\n      msg.payload.message = \"!led \" + (i+1).toString() + \" \"+ (j+1).toString() + \" 0 0 0\";\n      node.send(msg);\n    }\n}","outputs":1,"noerr":0,"initialize":"","finalize":"","x":770,"y":870,"wires":[["90c3bce8.c2d99"]]},{"id":"90c3bce8.c2d99","type":"delay","z":"b75eee57.faa9a","name":"","pauseType":"rate","timeout":"5","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":980,"y":870,"wires":[["361d5d05.c57bd2"]]},{"id":"decc8666.871b38","type":"debug","z":"b75eee57.faa9a","name":"","active":false,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":1580,"y":1040,"wires":[]},{"id":"31b7ae4a.da0682","type":"tmi-event-message","z":"b75eee57.faa9a","config":"869fdf1e.7b46c","name":"Chat ","channels_filter":"iooner","users_filter":"","action":false,"chat":true,"whisper":false,"regular":true,"mod":true,"subscriber":true,"broadcaster":true,"message_regexp":"!led","message_flags":"","x":520,"y":1020,"wires":[["27a6373.905b9c8"]]},{"id":"27a6373.905b9c8","type":"function","z":"b75eee57.faa9a","name":"CMD + Channel","func":"user = msg.payload.userstate.username\nif (user != \"tneodyme\"){\n    msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\nmsg.payload.channel = \"iooner\"\n\nreturn msg;\n}\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":790,"y":1000,"wires":[["fabc7958.6c5fd8"]]},{"id":"fabc7958.6c5fd8","type":"function","z":"b75eee57.faa9a","name":"","func":"input = msg.payload.cmd;\nmsg.payload.message = \"!led \" + input[1] + \" \"+ input[2] + \" 255 0 0\";\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":940,"y":1000,"wires":[["decc8666.871b38"]]},{"id":"57d6e9b9.1a1448","type":"inject","z":"b75eee57.faa9a","name":"","props":[{"p":"reset","v":"","vt":"date"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","x":530,"y":980,"wires":[["c589fa68.688e08"]]},{"id":"1b00beab.1b2cc1","type":"tmi-command-say","z":"b75eee57.faa9a","config":"869fdf1e.7b46c","name":"Message","x":1210,"y":930,"wires":[[],[]]},{"id":"6cd50391.2d8a0c","type":"inject","z":"b75eee57.faa9a","name":"","props":[{"p":"payload"},{"p":"topic","vt":"str"}],"repeat":"","crontab":"","once":false,"onceDelay":0.1,"topic":"","payload":"","payloadType":"date","x":550,"y":930,"wires":[["e49c2d26.aebba"]]},{"id":"e49c2d26.aebba","type":"function","z":"b75eee57.faa9a","name":"","func":"function randomInteger(min, max) {\n   return Math.floor(Math.random() * (max - min) + min);\n}\n\nmsg.payload = {\n    \"channel\" : \"iooner\",\n    \"message\" : \"Bonjour\"\n}\n\nfor(i=0; i<12;i++){\n    for(j=0; j<12;j++){\n      msg.payload.message = \"!led \" + (i+1).toString() + \" \"+ (j+1).toString() + \" 255 0 0\";\n      node.send(msg);\n    }\n}","outputs":1,"noerr":0,"initialize":"","finalize":"","x":770,"y":930,"wires":[["c589fa68.688e08"]]},{"id":"c589fa68.688e08","type":"delay","z":"b75eee57.faa9a","name":"","pauseType":"rate","timeout":"5","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":980,"y":930,"wires":[["1b00beab.1b2cc1"]]},{"id":"af4314f.8d3d2e8","type":"mqtt out","z":"60e79ebe.afbc1","name":"","topic":"twitch/kallax/water/turret/01","qos":"","retain":"","broker":"bb09b041.d6734","x":840,"y":120,"wires":[]},{"id":"f3fd432.41b71c","type":"debug","z":"b75eee57.faa9a","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":470,"y":80,"wires":[]},{"id":"19b6c072.c11ce","type":"tmi-event-message","z":"3e77687.688db98","config":"d67e89c8.c20208","name":"","channels_filter":"","users_filter":"","action":true,"chat":true,"whisper":true,"regular":true,"mod":true,"subscriber":true,"broadcaster":true,"message_regexp":"","message_flags":"","x":100,"y":830,"wires":[["55446d4b.659834"]]},{"id":"55446d4b.659834","type":"function","z":"3e77687.688db98","name":"","func":"\nconst prix = msg.payload.userstate['custom-reward-id'];\n\nif(prix === \"a9559436-9f9e-42d6-8616-39c0a730c018\"){\n    return msg;\n}\n\n\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":280,"y":830,"wires":[["6c680c4d.c47344"]]},{"id":"6c680c4d.c47344","type":"function","z":"3e77687.688db98","name":"CMD + Channel","func":"msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\nmsg.payload.channel = \"ioodyme\"\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":450,"y":830,"wires":[["4799dfaf.ef419"]]},{"id":"aba18752.197618","type":"ui_slider","z":"60e79ebe.afbc1","name":"","label":"X","tooltip":"","group":"d2f2fd37.59588","order":0,"width":0,"height":0,"passthru":true,"outs":"all","topic":"X","min":0,"max":"180","step":1,"x":140,"y":80,"wires":[["eb30bb94.569828"]]},{"id":"9e6984fd.145098","type":"ui_slider","z":"60e79ebe.afbc1","name":"","label":"Y","tooltip":"","group":"d2f2fd37.59588","order":0,"width":0,"height":0,"passthru":true,"outs":"all","topic":"Y","min":0,"max":"100","step":1,"x":140,"y":130,"wires":[["eb30bb94.569828"]]},{"id":"c96cd296.ebe2a","type":"ui_button","z":"60e79ebe.afbc1","name":"","group":"d2f2fd37.59588","order":6,"width":0,"height":0,"passthru":false,"label":"GO","tooltip":"","color":"","bgcolor":"","icon":"","payload":"200","payloadType":"num","topic":"P","x":140,"y":180,"wires":[["eb30bb94.569828"]]},{"id":"8b09c9dc.9b2a28","type":"function","z":"60e79ebe.afbc1","name":"","func":"if(msg.topic === \"X\"){\n   msg.payload = {\"X\":msg.payload};\n   return msg;\n}\n\nif(msg.topic === \"Y\"){\n    msg.payload = {\"X\":msg.payload};\n    return msg;  \n}\n\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":390,"y":140,"wires":[[]]},{"id":"eb30bb94.569828","type":"function","z":"60e79ebe.afbc1","name":"","func":"msg.payload = {[msg.topic]:msg.payload};\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":340,"y":190,"wires":[["af4314f.8d3d2e8"]]},{"id":"900bffc1.78403","type":"function","z":"60e79ebe.afbc1","name":"robot P","func":"const input = msg.payload.cmd;\n\nif(input[0] === \"!robot\" && input[1]=== \"go\"){\n    msg.topic = \"P\";\n    msg.payload = 100;\n    return msg;\n    }","outputs":1,"noerr":0,"initialize":"","finalize":"","x":470,"y":430,"wires":[["eb30bb94.569828"]]},{"id":"6a0c0b92.285814","type":"tmi-event-message","z":"60e79ebe.afbc1","config":"d67e89c8.c20208","name":"","channels_filter":"","users_filter":"","action":true,"chat":true,"whisper":true,"regular":true,"mod":true,"subscriber":true,"broadcaster":true,"message_regexp":"","message_flags":"","x":130,"y":230,"wires":[["d9fc4e48.1d91c"]]},{"id":"d9fc4e48.1d91c","type":"function","z":"60e79ebe.afbc1","name":"","func":"const prix = msg.payload.userstate['custom-reward-id'];\nconst pacher = \"a9559436-9f9e-42d6-8616-39c0a730c018\";\nconst cher = \"4082e422-9046-4d69-aa5d-8d9bb3271298\";\n\nif(prix === cher ){\n    return [null, msg];\n}\nelse if(prix === pacher){\n    return [msg,null];\n}\n\n\n\n","outputs":2,"noerr":0,"initialize":"","finalize":"","x":120,"y":320,"wires":[["23c3de5c.d13342"],["d43d26cf.c63878"]]},{"id":"d43d26cf.c63878","type":"function","z":"60e79ebe.afbc1","name":"CMD + Channel","func":"msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\nmsg.payload.channel = \"ioodyme\"\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":240,"y":430,"wires":[["900bffc1.78403"]]},{"id":"23c3de5c.d13342","type":"function","z":"60e79ebe.afbc1","name":"CMD + Channel","func":"msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\nmsg.payload.channel = \"ioodyme\"\n\nreturn msg;","outputs":1,"noerr":0,"initialize":"","finalize":"","x":290,"y":310,"wires":[["841edd80.65786","ec49e8f4.d474c8"]]},{"id":"add5080.81555f8","type":"function","z":"60e79ebe.afbc1","name":"robot X Y","func":"const input = msg.payload.cmd;\nlet Xtemp = context.get('X')||0;\nlet Ytemp = context.get('Y')||0;\n\nif(input[0] === \"!robotxy\" ){\n    \n    Xtemp += parseInt(input[1]);\n    Ytemp += parseInt(input[2]);\n    \n    if(Xtemp >180){\n        Xtemp = 180;\n    }\n    if(Xtemp <0){\n        Xtemp = 0;\n    }\n    \n    if(Ytemp >100){\n        Ytemp = 100;\n    }\n    if(Ytemp <0){\n        Ytemp = 0;\n    }\n\n    msg.payload = {\n        \"X\" : Xtemp,\n        \"Y\" : Ytemp\n    }\n    \n    flow.set('X', Xtemp);\n    flow.set('Y', Xtemp);\n    \n    return msg;\n}\n\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":610,"y":290,"wires":[["af4314f.8d3d2e8","90e5907f.924cd","57d784dc.69699c"]]},{"id":"90e5907f.924cd","type":"debug","z":"60e79ebe.afbc1","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"false","statusVal":"","statusType":"auto","x":780,"y":430,"wires":[]},{"id":"841edd80.65786","type":"delay","z":"60e79ebe.afbc1","name":"","pauseType":"delay","timeout":"2","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":470,"y":290,"wires":[["add5080.81555f8"]]},{"id":"d9ecb281.4caab","type":"websocket out","z":"60e79ebe.afbc1","name":"","server":"11f35e5.c7bf3a2","client":"","x":640,"y":220,"wires":[]},{"id":"ec49e8f4.d474c8","type":"function","z":"60e79ebe.afbc1","name":"ON","func":"msg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"ESPCam1\"},\n    \"scene-name\": \"Capture Ecran\",\n    \"visible\": true,\n    \"message-id\": msg._msgid\n};\n\nreturn msg;\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":420,"y":230,"wires":[["d9ecb281.4caab"]]},{"id":"57d784dc.69699c","type":"delay","z":"60e79ebe.afbc1","name":"","pauseType":"delay","timeout":"2","timeoutUnits":"seconds","rate":"1","nbRateUnits":"1","rateUnits":"second","randomFirst":"1","randomLast":"5","randomUnits":"seconds","drop":false,"x":780,"y":290,"wires":[["3d22b152.6fa75e"]]},{"id":"3d22b152.6fa75e","type":"function","z":"60e79ebe.afbc1","name":"ON","func":"msg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"ESPCam1\"},\n    \"scene-name\": \"Capture Ecran\",\n    \"visible\": false,\n    \"message-id\": msg._msgid\n};\nreturn msg;\n\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":860,"y":210,"wires":[["bfb6f6e3.9aa678"]]},{"id":"bfb6f6e3.9aa678","type":"websocket out","z":"60e79ebe.afbc1","name":"","server":"11f35e5.c7bf3a2","client":"","x":1070,"y":220,"wires":[]}]
+[
+    {
+        "id": "a6faa0d1.3cba9",
+        "type": "tab",
+        "label": "Commandes / Events",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "60e79ebe.afbc1",
+        "type": "tab",
+        "label": "Water",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "301a10c.b4d4af",
+        "type": "tab",
+        "label": "Bot Setup",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "3e77687.688db98",
+        "type": "tab",
+        "label": "OBS Websocket",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b75eee57.faa9a",
+        "type": "tab",
+        "label": "tNeoBot",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "45339590.1dc17c",
+        "type": "group",
+        "z": "a6faa0d1.3cba9",
+        "name": "Commandes ! ",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#b797cf",
+            "fill-opacity": "0.4",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "236112bc.a112be",
+            "4c1820d6.fae0a",
+            "f92c6d60.be0f4",
+            "2b571c5e.68e874",
+            "51fd9c7a.0f69c4",
+            "1ff33763.dac9b9",
+            "2a386746.f3c098",
+            "723eb4de.35f7ec",
+            "82bea6cd.837e68",
+            "d4a37a9f.307368",
+            "9e540717.1f1118"
+        ],
+        "x": 64,
+        "y": 49,
+        "w": 842,
+        "h": 242
+    },
+    {
+        "id": "91d92088.b834d",
+        "type": "group",
+        "z": "a6faa0d1.3cba9",
+        "name": "LED Control",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "fill": "#ffcf3f",
+            "fill-opacity": "0.4",
+            "color": "#000000"
+        },
+        "nodes": [
+            "a6ee3ae5.8e2a68",
+            "6d25a853.234338",
+            "7d0ae798.32ee88",
+            "b3565342.0a8cb",
+            "fc5fe185.f5ef",
+            "b44aa388.64706"
+        ],
+        "x": 64,
+        "y": 319,
+        "w": 982,
+        "h": 122
+    },
+    {
+        "id": "21533114.9510ee",
+        "type": "group",
+        "z": "301a10c.b4d4af",
+        "name": "Setup Bot",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "fill-opacity": "0.4",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "62edefbf.1bb0e",
+            "f180e564.8ab328",
+            "92c95334.d8722",
+            "cbcb7982.7fa178",
+            "98d9c384.1eb14",
+            "91b03385.b3902",
+            "1f814502.19d7eb",
+            "f2a86c31.402ab",
+            "a061743b.2c0de8",
+            "5210afc7.62f49",
+            "2fd2f965.552fb6",
+            "7c444077.1f17b"
+        ],
+        "x": 44,
+        "y": 29,
+        "w": 562,
+        "h": 352
+    },
+    {
+        "id": "426afb68.14bd44",
+        "type": "group",
+        "z": "a6faa0d1.3cba9",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#92d04f",
+            "fill-opacity": "0.5",
+            "label": true
+        },
+        "nodes": [
+            "b1e6c5c2.30e9e8",
+            "f9c75d00.5a56c",
+            "c7462b83.f85f18",
+            "8b688c28.c8995",
+            "98e5d59f.3568a8",
+            "edbb0e74.64fac",
+            "4686920d.2cabdc"
+        ],
+        "x": 64,
+        "y": 469,
+        "w": 1082,
+        "h": 122
+    },
+    {
+        "id": "83fa1ab1.a6de68",
+        "type": "group",
+        "z": "301a10c.b4d4af",
+        "name": "",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#ffdf7f",
+            "fill-opacity": "0.5",
+            "label": true
+        },
+        "nodes": [
+            "31edd953.bde326",
+            "cf43a84b.bc96d8"
+        ],
+        "x": 624,
+        "y": 39,
+        "w": 392,
+        "h": 82
+    },
+    {
+        "id": "56cdad2e.1b7df4",
+        "type": "group",
+        "z": "60e79ebe.afbc1",
+        "name": "Robot GUI",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#7fb7df",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "aba18752.197618",
+            "9e6984fd.145098",
+            "c96cd296.ebe2a",
+            "bf0c15bd.b2dde8",
+            "d6fdb395.fc8b1"
+        ],
+        "x": 34,
+        "y": 249,
+        "w": 622,
+        "h": 182
+    },
+    {
+        "id": "6674a553.8403ac",
+        "type": "group",
+        "z": "60e79ebe.afbc1",
+        "name": "Robot Chat Payant",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#b797cf",
+            "fill-opacity": "0.5",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "900bffc1.78403",
+            "6a0c0b92.285814",
+            "d43d26cf.c63878",
+            "add5080.81555f8",
+            "841edd80.65786",
+            "d9ecb281.4caab",
+            "ec49e8f4.d474c8",
+            "57d784dc.69699c",
+            "3d22b152.6fa75e",
+            "87493360.0acec",
+            "722b9c5f.0c8394",
+            "5e5f39e6.9f9778",
+            "95dbcd9f.e6978",
+            "14abaac3.919095"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 1322,
+        "h": 182
+    },
+    {
+        "id": "55fd86a8.2fbf58",
+        "type": "ui_tab",
+        "name": "TwitchBot",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f261d197.fdec9",
+        "type": "mqtt-broker",
+        "name": "VPS GervaLab",
+        "broker": "lab.gervasi.be",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "f90d89c1.4a1b18",
+        "type": "ui_group",
+        "name": "Settings",
+        "tab": "55fd86a8.2fbf58",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "74d72532.9a880c",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "cbf67c28.40de1",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "",
+        "order": 1,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "bb09b041.d6734",
+        "type": "mqtt-broker",
+        "name": "Local",
+        "broker": "192.168.178.100",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "12312279.a9349e",
+        "type": "mqtt-broker",
+        "name": "Domo",
+        "broker": "192.168.178.150",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "869fdf1e.7b46c",
+        "type": "tmi-config",
+        "name": "Bot neodyme",
+        "username": "tNeodyme",
+        "channels": "iooner",
+        "reconnect": true,
+        "secure": true,
+        "log_error": true
+    },
+    {
+        "id": "11f35e5.c7bf3a2",
+        "type": "websocket-listener",
+        "path": "ws://192.168.178.20:4444",
+        "wholemsg": "false"
+    },
+    {
+        "id": "d67e89c8.c20208",
+        "type": "tmi-config",
+        "name": "Bot ioodyme",
+        "username": "bot_ioodyme",
+        "channels": "ioodyme",
+        "reconnect": true,
+        "secure": true,
+        "log_error": true
+    },
+    {
+        "id": "ed8e5d72.2c1b9",
+        "type": "ui_tab",
+        "name": "Controle",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d2f2fd37.59588",
+        "type": "ui_group",
+        "name": "Robot",
+        "tab": "ed8e5d72.2c1b9",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "b1e6c5c2.30e9e8",
+        "type": "tmi-event-cheer",
+        "z": "a6faa0d1.3cba9",
+        "g": "426afb68.14bd44",
+        "config": "d67e89c8.c20208",
+        "name": "",
+        "x": 140,
+        "y": 550,
+        "wires": [
+            [
+                "f9c75d00.5a56c"
+            ]
+        ]
+    },
+    {
+        "id": "f9c75d00.5a56c",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "426afb68.14bd44",
+        "name": "Division Bits",
+        "func": "msg.payload = Math.ceil(parseInt(msg.payload.userstate.bits)/10); \nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 280,
+        "y": 550,
+        "wires": [
+            [
+                "98e5d59f.3568a8"
+            ]
+        ]
+    },
+    {
+        "id": "236112bc.a112be",
+        "type": "tmi-event-message",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "config": "d67e89c8.c20208",
+        "name": "Chat ",
+        "channels_filter": "ioodyme",
+        "users_filter": "",
+        "action": false,
+        "chat": true,
+        "whisper": false,
+        "regular": true,
+        "mod": true,
+        "subscriber": true,
+        "broadcaster": true,
+        "message_regexp": "!",
+        "message_flags": "",
+        "x": 140,
+        "y": 100,
+        "wires": [
+            [
+                "51fd9c7a.0f69c4"
+            ]
+        ]
+    },
+    {
+        "id": "4c1820d6.fae0a",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "name": "RS",
+        "func": "const input = msg.payload.cmd;\n\nif(input[0] === \"!rs\"){\n    \n    if(global.get(\"NEODYME\")===true){\n        msg.payload.message = \"\\\n            Les réseaux sociaux de Neodyme sont : \\\n            youtube.com/NeodymeTV \\\n            twitter.com/tNeodyme \\\n            github.com/n3odym3 \\\n        \";\n    node.send(msg);\n    }\n    \n    if(global.get(\"IOONER\")===true){\n        msg.payload.message = \"\\\n            Les réseaux sociaux de iooner sont : \\\n            twitter.com/iooner \\\n            github.com/iooner \\\n        \";\n    node.send(msg);\n    }\n    \n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 680,
+        "y": 130,
+        "wires": [
+            [
+                "f92c6d60.be0f4"
+            ]
+        ]
+    },
+    {
+        "id": "f92c6d60.be0f4",
+        "type": "tmi-command-action",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "config": "d67e89c8.c20208",
+        "name": "",
+        "x": 830,
+        "y": 130,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2b571c5e.68e874",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "name": "Help",
+        "func": "msg.payload.message = \"Les commandes actuellement disponibles sont : [!rs]\"\n   \nif(global.get(\"LED\") === true){\n    msg.payload.message += \"[!led] \"; \n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 680,
+        "y": 90,
+        "wires": [
+            [
+                "f92c6d60.be0f4"
+            ]
+        ]
+    },
+    {
+        "id": "51fd9c7a.0f69c4",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "name": "Split CMD + Set Channel",
+        "func": "msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\nmsg.payload.channel = \"ioodyme\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 320,
+        "y": 100,
+        "wires": [
+            [
+                "2a386746.f3c098"
+            ]
+        ]
+    },
+    {
+        "id": "a6ee3ae5.8e2a68",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "91d92088.b834d",
+        "name": "LED Random",
+        "func": "const vote = flow.get(\"LEDVote\")|| [];\nconst RGBlock = flow.get('RGBlock')||false;\n\nfunction randomInteger(min, max) {\n   return Math.floor(Math.random() * (max - min) + min);\n}\n\nif(vote[0] !== undefined){\n    const CMD = randomInteger(0,Vote.length);\n    msg.payload = {\"Slot\":parseInt(Vote[CMD][0]), \"R\":parseInt(Vote[CMD][1]), \"G\":parseInt(Vote[CMD][2]), \"B\":parseInt(Vote[CMD][3])}\n    flow.set(\"LEDVote\", []);\n    return msg;\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "6d25a853.234338",
+                "b3565342.0a8cb"
+            ]
+        ]
+    },
+    {
+        "id": "6d25a853.234338",
+        "type": "mqtt out",
+        "z": "a6faa0d1.3cba9",
+        "g": "91d92088.b834d",
+        "name": "",
+        "topic": "domotique/kallax/sk6812",
+        "qos": "",
+        "retain": "",
+        "broker": "12312279.a9349e",
+        "x": 910,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7d0ae798.32ee88",
+        "type": "inject",
+        "z": "a6faa0d1.3cba9",
+        "g": "91d92088.b834d",
+        "name": "5 Sec loop",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 360,
+        "wires": [
+            [
+                "a6ee3ae5.8e2a68"
+            ]
+        ]
+    },
+    {
+        "id": "1ff33763.dac9b9",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "name": "LED",
+        "func": "const input = msg.payload.cmd;\n\nlet LEDVote = flow.get(\"LEDVote\")|| [];\nlet gens_polis = global.get('GENSPOLIS')||[];\n\nconst username = msg.payload.userstate.username;\nconst soleil = global.get(\"BonjourBonsoir\");\n\nlet colors = {\n  \"aliceblue\": [240, 248, 255, 1],\n  \"antiquewhite\": [250, 235, 215, 1],\n  \"aqua\": [0, 255, 255, 1],\n  \"aquamarine\": [127, 255, 212, 1],\n  \"azure\": [240, 255, 255, 1],\n  \"beige\": [245, 245, 220, 1],\n  \"bisque\": [255, 228, 196, 1],\n  \"black\": [0, 0, 0, 1],\n  \"blanchedalmond\": [255, 235, 205, 1],\n  \"blue\": [0, 0, 255, 1],\n  \"blueviolet\": [138, 43, 226, 1],\n  \"brown\": [165, 42, 42, 1],\n  \"burlywood\": [222, 184, 135, 1],\n  \"cadetblue\": [95, 158, 160, 1],\n  \"chartreuse\": [127, 255, 0, 1],\n  \"chocolate\": [210, 105, 30, 1],\n  \"coral\": [255, 127, 80, 1],\n  \"cornflowerblue\": [100, 149, 237, 1],\n  \"cornsilk\": [255, 248, 220, 1],\n  \"crimson\": [220, 20, 60, 1],\n  \"cyan\": [0, 255, 255, 1],\n  \"darkblue\": [0, 0, 139, 1],\n  \"darkcyan\": [0, 139, 139, 1],\n  \"darkgoldenrod\": [184, 134, 11, 1],\n  \"darkgray\": [169, 169, 169, 1],\n  \"darkgreen\": [0, 100, 0, 1],\n  \"darkgrey\": [169, 169, 169, 1],\n  \"darkkhaki\": [189, 183, 107, 1],\n  \"darkmagenta\": [139, 0, 139, 1],\n  \"darkolivegreen\": [85, 107, 47, 1],\n  \"darkorange\": [255, 140, 0, 1],\n  \"darkorchid\": [153, 50, 204, 1],\n  \"darkred\": [139, 0, 0, 1],\n  \"darksalmon\": [233, 150, 122, 1],\n  \"darkseagreen\": [143, 188, 143, 1],\n  \"darkslateblue\": [72, 61, 139, 1],\n  \"darkslategray\": [47, 79, 79, 1],\n  \"darkslategrey\": [47, 79, 79, 1],\n  \"darkturquoise\": [0, 206, 209, 1],\n  \"darkviolet\": [148, 0, 211, 1],\n  \"deeppink\": [255, 20, 147, 1],\n  \"deepskyblue\": [0, 191, 255, 1],\n  \"dimgray\": [105, 105, 105, 1],\n  \"dimgrey\": [105, 105, 105, 1],\n  \"dodgerblue\": [30, 144, 255, 1],\n  \"firebrick\": [178, 34, 34, 1],\n  \"floralwhite\": [255, 250, 240, 1],\n  \"forestgreen\": [34, 139, 34, 1],\n  \"fuchsia\": [255, 0, 255, 1],\n  \"gainsboro\": [220, 220, 220, 1],\n  \"ghostwhite\": [248, 248, 255, 1],\n  \"gold\": [255, 215, 0, 1],\n  \"goldenrod\": [218, 165, 32, 1],\n  \"gray\": [128, 128, 128, 1],\n  \"green\": [0, 128, 0, 1],\n  \"greenyellow\": [173, 255, 47, 1],\n  \"grey\": [128, 128, 128, 1],\n  \"honeydew\": [240, 255, 240, 1],\n  \"hotpink\": [255, 105, 180, 1],\n  \"indianred\": [205, 92, 92, 1],\n  \"indigo\": [75, 0, 130, 1],\n  \"ivory\": [255, 255, 240, 1],\n  \"khaki\": [240, 230, 140, 1],\n  \"lavender\": [230, 230, 250, 1],\n  \"lavenderblush\": [255, 240, 245, 1],\n  \"lawngreen\": [124, 252, 0, 1],\n  \"lemonchiffon\": [255, 250, 205, 1],\n  \"lightblue\": [173, 216, 230, 1],\n  \"lightcoral\": [240, 128, 128, 1],\n  \"lightcyan\": [224, 255, 255, 1],\n  \"lightgoldenrodyellow\": [250, 250, 210, 1],\n  \"lightgray\": [211, 211, 211, 1],\n  \"lightgreen\": [144, 238, 144, 1],\n  \"lightgrey\": [211, 211, 211, 1],\n  \"lightpink\": [255, 182, 193, 1],\n  \"lightsalmon\": [255, 160, 122, 1],\n  \"lightseagreen\": [32, 178, 170, 1],\n  \"lightskyblue\": [135, 206, 250, 1],\n  \"lightslategray\": [119, 136, 153, 1],\n  \"lightslategrey\": [119, 136, 153, 1],\n  \"lightsteelblue\": [176, 196, 222, 1],\n  \"lightyellow\": [255, 255, 224, 1],\n  \"lime\": [0, 255, 0, 1],\n  \"limegreen\": [50, 205, 50, 1],\n  \"linen\": [250, 240, 230, 1],\n  \"magenta\": [255, 0, 255, 1],\n  \"maroon\": [128, 0, 0, 1],\n  \"mediumaquamarine\": [102, 205, 170, 1],\n  \"mediumblue\": [0, 0, 205, 1],\n  \"mediumorchid\": [186, 85, 211, 1],\n  \"mediumpurple\": [147, 112, 219, 1],\n  \"mediumseagreen\": [60, 179, 113, 1],\n  \"mediumslateblue\": [123, 104, 238, 1],\n  \"mediumspringgreen\": [0, 250, 154, 1],\n  \"mediumturquoise\": [72, 209, 204, 1],\n  \"mediumvioletred\": [199, 21, 133, 1],\n  \"midnightblue\": [25, 25, 112, 1],\n  \"mintcream\": [245, 255, 250, 1],\n  \"mistyrose\": [255, 228, 225, 1],\n  \"moccasin\": [255, 228, 181, 1],\n  \"navajowhite\": [255, 222, 173, 1],\n  \"navy\": [0, 0, 128, 1],\n  \"oldlace\": [253, 245, 230, 1],\n  \"olive\": [128, 128, 0, 1],\n  \"olivedrab\": [107, 142, 35, 1],\n  \"orange\": [255, 165, 0, 1],\n  \"orangered\": [255, 69, 0, 1],\n  \"orchid\": [218, 112, 214, 1],\n  \"palegoldenrod\": [238, 232, 170, 1],\n  \"palegreen\": [152, 251, 152, 1],\n  \"paleturquoise\": [175, 238, 238, 1],\n  \"palevioletred\": [219, 112, 147, 1],\n  \"papayawhip\": [255, 239, 213, 1],\n  \"peachpuff\": [255, 218, 185, 1],\n  \"peru\": [205, 133, 63, 1],\n  \"pink\": [255, 192, 203, 1],\n  \"plum\": [221, 160, 221, 1],\n  \"powderblue\": [176, 224, 230, 1],\n  \"purple\": [128, 0, 128, 1],\n  \"red\": [255, 0, 0, 1],\n  \"rosybrown\": [188, 143, 143, 1],\n  \"royalblue\": [65, 105, 225, 1],\n  \"saddlebrown\": [139, 69, 19, 1],\n  \"salmon\": [250, 128, 114, 1],\n  \"sandybrown\": [244, 164, 96, 1],\n  \"seagreen\": [46, 139, 87, 1],\n  \"seashell\": [255, 245, 238, 1],\n  \"sienna\": [160, 82, 45, 1],\n  \"silver\": [192, 192, 192, 1],\n  \"skyblue\": [135, 206, 235, 1],\n  \"slateblue\": [106, 90, 205, 1],\n  \"slategray\": [112, 128, 144, 1],\n  \"slategrey\": [112, 128, 144, 1],\n  \"snow\": [255, 250, 250, 1],\n  \"springgreen\": [0, 255, 127, 1],\n  \"steelblue\": [70, 130, 180, 1],\n  \"tan\": [210, 180, 140, 1],\n  \"teal\": [0, 128, 128, 1],\n  \"thistle\": [216, 191, 216, 1],\n  \"tomato\": [255, 99, 71, 1],\n  \"transparent\": [0, 0, 0, 0],\n  \"turquoise\": [64, 224, 208, 1],\n  \"violet\": [238, 130, 238, 1],\n  \"wheat\": [245, 222, 179, 1],\n  \"white\": [255, 255, 255, 1],\n  \"whitesmoke\": [245, 245, 245, 1],\n  \"yellow\": [255, 255, 0, 1],\n  \"yellowgreen\": [154, 205, 50, 1],\n  \"rebeccapurple\": [102, 51, 153, 1]\n}\n\nfunction hexToRGB(h) {\n  let out = {\"r\":0,\"g\":0,\"b\":0};\n  // 3 digits\n  if (h.length == 4) {\n    out.r = parseInt(\"0x\" + h[1] + h[1]);\n    out.g = parseInt(\"0x\" + h[2] + h[2]);\n    out.b = parseInt(\"0x\" + h[3] + h[3]);\n  // 6 digits\n  } else if (h.length == 7) {\n    out.r = parseInt(\"0x\" + h[1] + h[2]);\n    out.g = parseInt(\"0x\" + h[3] + h[4]);\n    out.b = parseInt(\"0x\" + h[5] + h[6]);\n  }\n  return out;\n}\n\nfunction HSVtoRGB(h, s, v) {\n    var r, g, b, i, f, p, q, t;\n    if (arguments.length === 1) {\n        s = h.s, v = h.v, h = h.h;\n    }\n    i = Math.floor(h * 6);\n    f = h * 6 - i;\n    p = v * (1 - s);\n    q = v * (1 - f * s);\n    t = v * (1 - (1 - f) * s);\n    switch (i % 6) {\n        case 0: r = v, g = t, b = p; break;\n        case 1: r = q, g = v, b = p; break;\n        case 2: r = p, g = v, b = t; break;\n        case 3: r = p, g = q, b = v; break;\n        case 4: r = t, g = p, b = v; break;\n        case 5: r = v, g = p, b = q; break;\n    }\n    return {\n        r: Math.round(r * 255),\n        g: Math.round(g * 255),\n        b: Math.round(b * 255)\n    };\n}\n\nfunction randomInteger(min, max) {\n   return Math.floor(Math.random() * (max - min) + min);\n}\n\nif(global.get('LED')===false){\n    msg.payload.message = \"Désolé, les LED ne sont actuellement pas activées :(\";\n    return msg;\n}\n\nif(!gens_polis.includes(username) && soleil === 0){\n    msg.payload.message = \"WOW @\" + username + \" même pas un bonsoir ?\";\n    return msg;  \n}\n\nif(!gens_polis.includes(username) && soleil === 1){\n    msg.payload.message = \"WOW @\" + username + \" même pas un bonjour ?\";\n    return msg; \n}\n\nif(global.get('LED')===true){\n    if(input.length < 3 || (input.length > 3 && input.length<5)){\n        msg.payload.message = \"Commande incomplète rajoutez le slot et la valeur RGB Ex : !led 1 red ou !led 1 #FF0000 ou !led 1 255 0 0\";\n        return msg\n    } \n    \n    if (input.length === 3){\n        let rgb={\"r\":0,\"g\":0,\"b\":0};\n        \n        if(input[2][0]===\"#\"){\n            rgb = hexToRGB(input[2]);\n        }\n        \n        else if(input[2]===\"random\"){\n            rgb = HSVtoRGB(randomInteger(0,100)/100,1,1);\n        }\n        else{\n            rgb.r = colors[input[2]][0];\n            rgb.g = colors[input[2]][1];\n            rgb.b = colors[input[2]][2];\n        }\n        \n        LEDVote.push([input[1],rgb.r, rgb.g, rgb.b]);\n        flow.set(\"LEDVote\", LEDVote); \n    }\n    \n    else{\n        LEDVote.push([input[1], input[2], input[3], input[4]]);\n        flow.set(\"LEDVote\", LEDVote); \n        msg.payload = LEDVote;\n        return msg;\n    }\n}\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 680,
+        "y": 170,
+        "wires": [
+            [
+                "f92c6d60.be0f4"
+            ]
+        ]
+    },
+    {
+        "id": "62edefbf.1bb0e",
+        "type": "ui_switch",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "LED",
+        "label": "LED",
+        "tooltip": "",
+        "group": "f90d89c1.4a1b18",
+        "order": 1,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "LED",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 120,
+        "y": 70,
+        "wires": [
+            [
+                "f180e564.8ab328"
+            ]
+        ]
+    },
+    {
+        "id": "f180e564.8ab328",
+        "type": "function",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "global Set",
+        "func": "global.set(msg.topic, msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 320,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92c95334.d8722",
+        "type": "tmi-command-say",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "config": "869fdf1e.7b46c",
+        "name": "Set Color",
+        "x": 520,
+        "y": 290,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "cbcb7982.7fa178",
+        "type": "function",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "Set Bot Color",
+        "func": "msg.payload={\n \"channel\": \"ioodyme\",\n\"message\": \"/color green\",\n    }\n   return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 340,
+        "y": 290,
+        "wires": [
+            [
+                "92c95334.d8722"
+            ]
+        ]
+    },
+    {
+        "id": "98d9c384.1eb14",
+        "type": "ui_switch",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "Neodyme",
+        "label": "Neodyme",
+        "tooltip": "",
+        "group": "f90d89c1.4a1b18",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "NEODYME",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 130,
+        "y": 120,
+        "wires": [
+            [
+                "f180e564.8ab328"
+            ]
+        ]
+    },
+    {
+        "id": "91b03385.b3902",
+        "type": "ui_switch",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "iooner",
+        "label": "iooner",
+        "tooltip": "",
+        "group": "f90d89c1.4a1b18",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "IOONER",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 120,
+        "y": 170,
+        "wires": [
+            [
+                "f180e564.8ab328"
+            ]
+        ]
+    },
+    {
+        "id": "1f814502.19d7eb",
+        "type": "ui_button",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "",
+        "group": "f90d89c1.4a1b18",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Init Bot",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 130,
+        "y": 340,
+        "wires": [
+            [
+                "7c444077.1f17b"
+            ]
+        ]
+    },
+    {
+        "id": "c7462b83.f85f18",
+        "type": "mqtt out",
+        "z": "a6faa0d1.3cba9",
+        "g": "426afb68.14bd44",
+        "name": "",
+        "topic": "domotique/kallax/sk6812",
+        "qos": "",
+        "retain": "",
+        "broker": "12312279.a9349e",
+        "x": 1010,
+        "y": 550,
+        "wires": []
+    },
+    {
+        "id": "8b688c28.c8995",
+        "type": "delay",
+        "z": "a6faa0d1.3cba9",
+        "g": "426afb68.14bd44",
+        "name": "",
+        "pauseType": "delayv",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 630,
+        "y": 550,
+        "wires": [
+            [
+                "edbb0e74.64fac"
+            ]
+        ]
+    },
+    {
+        "id": "98e5d59f.3568a8",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "426afb68.14bd44",
+        "name": "Multiplication msg",
+        "func": "const delay = 500;\nmsg.delay = 0;\n\nfor(i=0;i<msg.payload;i++){\n    node.send(msg);\n    msg.delay += delay;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 460,
+        "y": 550,
+        "wires": [
+            [
+                "8b688c28.c8995"
+            ]
+        ]
+    },
+    {
+        "id": "a626b44a.015c48",
+        "type": "debug",
+        "z": "a6faa0d1.3cba9",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 950,
+        "wires": []
+    },
+    {
+        "id": "edbb0e74.64fac",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "426afb68.14bd44",
+        "name": "Random Color",
+        "func": "function randomInteger(min, max) {\n   return Math.floor(Math.random() * (max - min) + min);\n}\n\nfunction HSVtoRGB(h, s, v) {\n    var r, g, b, i, f, p, q, t;\n    if (arguments.length === 1) {\n        s = h.s, v = h.v, h = h.h;\n    }\n    i = Math.floor(h * 6);\n    f = h * 6 - i;\n    p = v * (1 - s);\n    q = v * (1 - f * s);\n    t = v * (1 - (1 - f) * s);\n    switch (i % 6) {\n        case 0: r = v, g = t, b = p; break;\n        case 1: r = q, g = v, b = p; break;\n        case 2: r = p, g = v, b = t; break;\n        case 3: r = p, g = q, b = v; break;\n        case 4: r = t, g = p, b = v; break;\n        case 5: r = v, g = p, b = q; break;\n    }\n    return {\n        r: Math.round(r * 255),\n        g: Math.round(g * 255),\n        b: Math.round(b * 255)\n    };\n}\n\nRGB = HSVtoRGB(randomInteger(0,100)/100,1,1);\n//msg.payload = RGB;\nmsg.payload = {\"Slot\": 1234, \"R\": RGB.r, \"G\":RGB.g, \"B\":RGB.b}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 800,
+        "y": 550,
+        "wires": [
+            [
+                "c7462b83.f85f18"
+            ]
+        ]
+    },
+    {
+        "id": "4686920d.2cabdc",
+        "type": "inject",
+        "z": "a6faa0d1.3cba9",
+        "g": "426afb68.14bd44",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 630,
+        "y": 510,
+        "wires": [
+            [
+                "edbb0e74.64fac"
+            ]
+        ]
+    },
+    {
+        "id": "b3565342.0a8cb",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "91d92088.b834d",
+        "name": "Stream state",
+        "func": "if(global.get('STREAMON')=== false){\n    msg.payload = {\"Slot\":1234, \"R\":0, \"G\":0, \"B\":0}\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 560,
+        "y": 400,
+        "wires": [
+            [
+                "fc5fe185.f5ef"
+            ]
+        ]
+    },
+    {
+        "id": "fc5fe185.f5ef",
+        "type": "delay",
+        "z": "a6faa0d1.3cba9",
+        "g": "91d92088.b834d",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 720,
+        "y": 400,
+        "wires": [
+            [
+                "6d25a853.234338"
+            ]
+        ]
+    },
+    {
+        "id": "f2a86c31.402ab",
+        "type": "ui_switch",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "Stream ON",
+        "label": "Stream ON",
+        "tooltip": "",
+        "group": "f90d89c1.4a1b18",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "STREAMON",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 140,
+        "y": 230,
+        "wires": [
+            [
+                "f180e564.8ab328",
+                "a061743b.2c0de8"
+            ]
+        ]
+    },
+    {
+        "id": "a061743b.2c0de8",
+        "type": "mqtt out",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "",
+        "topic": "StreamON",
+        "qos": "",
+        "retain": "",
+        "broker": "bb09b041.d6734",
+        "x": 330,
+        "y": 230,
+        "wires": []
+    },
+    {
+        "id": "31edd953.bde326",
+        "type": "sunrise",
+        "z": "301a10c.b4d4af",
+        "g": "83fa1ab1.a6de68",
+        "name": "",
+        "lat": "50.645515",
+        "lon": "5.574038",
+        "start": "sunriseEnd",
+        "end": "sunset",
+        "soff": 0,
+        "eoff": 0,
+        "x": 720,
+        "y": 80,
+        "wires": [
+            [
+                "cf43a84b.bc96d8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "cf43a84b.bc96d8",
+        "type": "function",
+        "z": "301a10c.b4d4af",
+        "g": "83fa1ab1.a6de68",
+        "name": "Il est où le soleil ?",
+        "func": "global.set(\"BonjourBonsoir\", msg.payload);\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 900,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5210afc7.62f49",
+        "type": "inject",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 290,
+        "wires": [
+            [
+                "cbcb7982.7fa178"
+            ]
+        ]
+    },
+    {
+        "id": "7c444077.1f17b",
+        "type": "function",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "name": "Reset Gens polis",
+        "func": "global.set('GENSPOLIS',[]);\n\nmsg.payload = {\n    \"channel\" : \"ioodyme\",\n    \"message\" : \"J'ai complètement oublié qui était poli ou non ? :/\"\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 340,
+        "y": 340,
+        "wires": [
+            [
+                "2fd2f965.552fb6"
+            ]
+        ]
+    },
+    {
+        "id": "2fd2f965.552fb6",
+        "type": "tmi-command-action",
+        "z": "301a10c.b4d4af",
+        "g": "21533114.9510ee",
+        "config": "869fdf1e.7b46c",
+        "name": "",
+        "x": 510,
+        "y": 340,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "340762d3.c668ae",
+        "type": "websocket out",
+        "z": "3e77687.688db98",
+        "name": "",
+        "server": "11f35e5.c7bf3a2",
+        "client": "",
+        "x": 490,
+        "y": 110,
+        "wires": []
+    },
+    {
+        "id": "95897321.de8bb",
+        "type": "websocket in",
+        "z": "3e77687.688db98",
+        "name": "",
+        "server": "11f35e5.c7bf3a2",
+        "client": "",
+        "x": 170,
+        "y": 50,
+        "wires": [
+            [
+                "6f431f29.72163"
+            ]
+        ]
+    },
+    {
+        "id": "46b43133.f8dbf",
+        "type": "debug",
+        "z": "3e77687.688db98",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 50,
+        "wires": []
+    },
+    {
+        "id": "6f431f29.72163",
+        "type": "function",
+        "z": "3e77687.688db98",
+        "name": "Parse payload",
+        "func": "msg.payload = JSON.parse(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 410,
+        "y": 50,
+        "wires": [
+            [
+                "46b43133.f8dbf"
+            ]
+        ]
+    },
+    {
+        "id": "33c9eb8a.7cedf4",
+        "type": "function",
+        "z": "3e77687.688db98",
+        "name": "ON/OFF",
+        "func": "const cmd = msg.payload;\nmsg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"ESPCam1\"},\n    \"scene-name\": \"Capture Ecran\",\n    \"visible\": true,\n    \"message-id\": msg._msgid\n};\n\nif(cmd.action === \"off\"){\n   msg.payload.visible = false; \n}\nif(cmd.action === \"on\"){\n   msg.payload.visible = true; \n}\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 270,
+        "y": 110,
+        "wires": [
+            [
+                "340762d3.c668ae"
+            ]
+        ]
+    },
+    {
+        "id": "6c53d551.5fd52c",
+        "type": "mqtt in",
+        "z": "3e77687.688db98",
+        "name": "Trafri ON/OFF",
+        "topic": "zigbee2mqtt/0x842e14fffe73fa33",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "12312279.a9349e",
+        "x": 110,
+        "y": 110,
+        "wires": [
+            [
+                "33c9eb8a.7cedf4"
+            ]
+        ]
+    },
+    {
+        "id": "4799dfaf.ef419",
+        "type": "function",
+        "z": "3e77687.688db98",
+        "name": "!led ",
+        "func": "let input = msg.payload.cmd;\nlet out;\nif(input[0] === \"!cam\"){\n    if(input[1]=== \"on\"){\n        msg.payload.action = \"on\";\n        global.set('CAM', true);\n        return msg;\n    }\n    if(input[1]=== \"off\"){\n        msg.payload.action = \"off\";\n        global.set('CAM', false);\n        return msg;\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 650,
+        "y": 250,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "858d13ee.f21f9",
+        "type": "websocket out",
+        "z": "3e77687.688db98",
+        "name": "",
+        "server": "11f35e5.c7bf3a2",
+        "client": "",
+        "x": 700,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8a672f84.f73ea",
+        "type": "function",
+        "z": "3e77687.688db98",
+        "name": "Set",
+        "func": "Cam = !global.get('CAM')||false;\n\nmsg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"ESPCam1\"},\n    \"scene-name\": \"Desk Elec\",\n    \"visible\": Cam,\n    \"message-id\": msg._msgid\n};\n\nglobal.set('CAM', Cam);\nmsg.payload.visible = Cam;\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 490,
+        "y": 180,
+        "wires": [
+            [
+                "858d13ee.f21f9"
+            ]
+        ]
+    },
+    {
+        "id": "67dabed9.fdfc9",
+        "type": "ui_button",
+        "z": "3e77687.688db98",
+        "name": "",
+        "group": "f90d89c1.4a1b18",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "button",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 360,
+        "y": 180,
+        "wires": [
+            [
+                "8a672f84.f73ea"
+            ]
+        ]
+    },
+    {
+        "id": "58f850e.71c99b",
+        "type": "mqtt in",
+        "z": "3e77687.688db98",
+        "name": "",
+        "topic": "zigbee2mqtt/0xbc33acfffe82c358",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "12312279.a9349e",
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "67dabed9.fdfc9"
+            ]
+        ]
+    },
+    {
+        "id": "31b7ae4a.da0682",
+        "type": "tmi-event-message",
+        "z": "b75eee57.faa9a",
+        "config": "869fdf1e.7b46c",
+        "name": "Chat ",
+        "channels_filter": "iooner",
+        "users_filter": "",
+        "action": false,
+        "chat": true,
+        "whisper": false,
+        "regular": true,
+        "mod": true,
+        "subscriber": true,
+        "broadcaster": true,
+        "message_regexp": "!led",
+        "message_flags": "",
+        "x": 110,
+        "y": 110,
+        "wires": [
+            [
+                "27a6373.905b9c8"
+            ]
+        ]
+    },
+    {
+        "id": "27a6373.905b9c8",
+        "type": "function",
+        "z": "b75eee57.faa9a",
+        "name": "CMD + Channel",
+        "func": "msg.payload.channel = \"iooner\";\nconst user = msg.payload.userstate.username\nif (user != \"tneodyme\"){\n    const XY = msg.payload.message.toLowerCase().split(\" \");\n    msg.payload.message = \"!led \" + XY[1] + \" \"+ XY[2] + \" 255 0 0\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 290,
+        "y": 110,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1b00beab.1b2cc1",
+        "type": "tmi-command-say",
+        "z": "b75eee57.faa9a",
+        "config": "869fdf1e.7b46c",
+        "name": "Message",
+        "x": 740,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "6cd50391.2d8a0c",
+        "type": "inject",
+        "z": "b75eee57.faa9a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "e49c2d26.aebba"
+            ]
+        ]
+    },
+    {
+        "id": "e49c2d26.aebba",
+        "type": "function",
+        "z": "b75eee57.faa9a",
+        "name": "Saturation de la matrice en rouge",
+        "func": "function randomInteger(min, max) {\n   return Math.floor(Math.random() * (max - min) + min);\n}\n\nmsg.payload = {\n    \"channel\" : \"iooner\",\n    \"message\" : \"Bonjour\"\n}\n\nfor(i=0; i<12;i++){\n    for(j=0; j<12;j++){\n      msg.payload.message = \"!led \" + (i+1).toString() + \" \"+ (j+1).toString() + \" 255 0 0\";\n      node.send(msg);\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 350,
+        "y": 60,
+        "wires": [
+            [
+                "c589fa68.688e08"
+            ]
+        ]
+    },
+    {
+        "id": "c589fa68.688e08",
+        "type": "delay",
+        "z": "b75eee57.faa9a",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 590,
+        "y": 60,
+        "wires": [
+            [
+                "1b00beab.1b2cc1"
+            ]
+        ]
+    },
+    {
+        "id": "19b6c072.c11ce",
+        "type": "tmi-event-message",
+        "z": "3e77687.688db98",
+        "config": "d67e89c8.c20208",
+        "name": "",
+        "channels_filter": "",
+        "users_filter": "",
+        "action": true,
+        "chat": true,
+        "whisper": true,
+        "regular": true,
+        "mod": true,
+        "subscriber": true,
+        "broadcaster": true,
+        "message_regexp": "",
+        "message_flags": "",
+        "x": 130,
+        "y": 250,
+        "wires": [
+            [
+                "55446d4b.659834"
+            ]
+        ]
+    },
+    {
+        "id": "55446d4b.659834",
+        "type": "function",
+        "z": "3e77687.688db98",
+        "name": "",
+        "func": "\nconst prix = msg.payload.userstate['custom-reward-id'];\n\nif(prix === \"a9559436-9f9e-42d6-8616-39c0a730c018\"){\n    return msg;\n}\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 320,
+        "y": 250,
+        "wires": [
+            [
+                "6c680c4d.c47344"
+            ]
+        ]
+    },
+    {
+        "id": "6c680c4d.c47344",
+        "type": "function",
+        "z": "3e77687.688db98",
+        "name": "CMD + Channel",
+        "func": "msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\nmsg.payload.channel = \"ioodyme\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 490,
+        "y": 250,
+        "wires": [
+            [
+                "4799dfaf.ef419"
+            ]
+        ]
+    },
+    {
+        "id": "aba18752.197618",
+        "type": "ui_slider",
+        "z": "60e79ebe.afbc1",
+        "g": "56cdad2e.1b7df4",
+        "name": "",
+        "label": "X",
+        "tooltip": "",
+        "group": "d2f2fd37.59588",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "X",
+        "min": 0,
+        "max": "180",
+        "step": 1,
+        "x": 110,
+        "y": 290,
+        "wires": [
+            [
+                "d6fdb395.fc8b1"
+            ]
+        ]
+    },
+    {
+        "id": "9e6984fd.145098",
+        "type": "ui_slider",
+        "z": "60e79ebe.afbc1",
+        "g": "56cdad2e.1b7df4",
+        "name": "",
+        "label": "Y",
+        "tooltip": "",
+        "group": "d2f2fd37.59588",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "Y",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "x": 110,
+        "y": 340,
+        "wires": [
+            [
+                "d6fdb395.fc8b1"
+            ]
+        ]
+    },
+    {
+        "id": "c96cd296.ebe2a",
+        "type": "ui_button",
+        "z": "60e79ebe.afbc1",
+        "g": "56cdad2e.1b7df4",
+        "name": "",
+        "group": "d2f2fd37.59588",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "GO",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "200",
+        "payloadType": "num",
+        "topic": "P",
+        "x": 110,
+        "y": 390,
+        "wires": [
+            [
+                "d6fdb395.fc8b1"
+            ]
+        ]
+    },
+    {
+        "id": "900bffc1.78403",
+        "type": "function",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "Robot Pump",
+        "func": "if(msg.payload.cmd[1]=== \"go\"){\n    msg.payload = {\n        \"P\":100\n    }\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 860,
+        "y": 180,
+        "wires": [
+            [
+                "57d784dc.69699c",
+                "95dbcd9f.e6978"
+            ]
+        ]
+    },
+    {
+        "id": "6a0c0b92.285814",
+        "type": "tmi-event-message",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "config": "d67e89c8.c20208",
+        "name": "Payant",
+        "channels_filter": "",
+        "users_filter": "",
+        "action": false,
+        "chat": true,
+        "whisper": false,
+        "regular": true,
+        "mod": true,
+        "subscriber": true,
+        "broadcaster": true,
+        "message_regexp": "",
+        "message_flags": "",
+        "x": 110,
+        "y": 110,
+        "wires": [
+            [
+                "d43d26cf.c63878"
+            ]
+        ]
+    },
+    {
+        "id": "d43d26cf.c63878",
+        "type": "function",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "Payant ?",
+        "func": "if(msg.payload.userstate['custom-reward-id'] != null){\n    msg.payload.cmd = msg.payload.message.toLowerCase().split(\" \");\n    msg.payload.channel = \"ioodyme\"\n    return msg;  \n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 240,
+        "y": 110,
+        "wires": [
+            [
+                "87493360.0acec"
+            ]
+        ]
+    },
+    {
+        "id": "add5080.81555f8",
+        "type": "function",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "Move XY (relative)",
+        "func": "const input = msg.payload.cmd;\nlet Xtemp = context.get('X')||0;\nlet Ytemp = context.get('Y')||0;\n\nif(input[0] === \"!robotxy\" ){\n    \n    Xtemp += parseInt(input[1]);\n    Ytemp += parseInt(input[2]);\n    \n    if(Xtemp >180){\n        Xtemp = 180;\n    }\n    \n    if(Xtemp <0){\n        Xtemp = 0;\n    }\n    \n    if(Ytemp >100){\n        Ytemp = 100;\n    }\n    \n    if(Ytemp <0){\n        Ytemp = 0;\n    }\n\n    msg.payload = {\n        \"X\" : Xtemp,\n        \"Y\" : Ytemp\n    }\n    \n    flow.set('X', Xtemp);\n    flow.set('Y', Xtemp);\n    \n    return msg;\n}\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 880,
+        "y": 80,
+        "wires": [
+            [
+                "57d784dc.69699c",
+                "95dbcd9f.e6978"
+            ]
+        ]
+    },
+    {
+        "id": "841edd80.65786",
+        "type": "delay",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 670,
+        "y": 80,
+        "wires": [
+            [
+                "add5080.81555f8"
+            ]
+        ]
+    },
+    {
+        "id": "d9ecb281.4caab",
+        "type": "websocket out",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "PC Stream",
+        "server": "11f35e5.c7bf3a2",
+        "client": "",
+        "x": 860,
+        "y": 130,
+        "wires": []
+    },
+    {
+        "id": "ec49e8f4.d474c8",
+        "type": "function",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "ESPCam ON",
+        "func": "msg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"ESPCam1\"},\n    //\"scene-name\": \"Capture Ecran\",\n    \"visible\": true,\n    \"message-id\": msg._msgid\n};\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 680,
+        "y": 130,
+        "wires": [
+            [
+                "d9ecb281.4caab"
+            ]
+        ]
+    },
+    {
+        "id": "57d784dc.69699c",
+        "type": "delay",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 1080,
+        "y": 80,
+        "wires": [
+            [
+                "3d22b152.6fa75e"
+            ]
+        ]
+    },
+    {
+        "id": "3d22b152.6fa75e",
+        "type": "function",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "ESPCam OFF",
+        "func": "msg.payload = {\n    \"request-type\": \"SetSceneItemProperties\",\n    \"item\":{\"name\":\"ESPCam1\"},\n    \"scene-name\": \"Capture Ecran\",\n    \"visible\": false,\n    \"message-id\": msg._msgid\n};\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1250,
+        "y": 80,
+        "wires": [
+            [
+                "d9ecb281.4caab"
+            ]
+        ]
+    },
+    {
+        "id": "b44aa388.64706",
+        "type": "inject",
+        "z": "a6faa0d1.3cba9",
+        "g": "91d92088.b834d",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 390,
+        "y": 400,
+        "wires": [
+            [
+                "b3565342.0a8cb"
+            ]
+        ]
+    },
+    {
+        "id": "2a386746.f3c098",
+        "type": "switch",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "name": "Switch cmd",
+        "property": "payload.cmd[0]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "!help",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "!rs",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "!led",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 520,
+        "y": 100,
+        "wires": [
+            [
+                "2b571c5e.68e874"
+            ],
+            [
+                "4c1820d6.fae0a"
+            ],
+            [
+                "1ff33763.dac9b9"
+            ]
+        ]
+    },
+    {
+        "id": "9e540717.1f1118",
+        "type": "tmi-event-message",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "config": "d67e89c8.c20208",
+        "name": "Chat ",
+        "channels_filter": "ioodyme",
+        "users_filter": "",
+        "action": false,
+        "chat": true,
+        "whisper": false,
+        "regular": true,
+        "mod": true,
+        "subscriber": true,
+        "broadcaster": true,
+        "message_regexp": "@bot_ioodyme",
+        "message_flags": "",
+        "x": 140,
+        "y": 250,
+        "wires": [
+            [
+                "82bea6cd.837e68"
+            ]
+        ]
+    },
+    {
+        "id": "82bea6cd.837e68",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "name": "Bonjour/Bonsoir ?",
+        "func": "const cmd = msg.payload.message.toLowerCase().split(\" \");\nconst username = msg.payload.userstate.username;\nconst gens_polis = global.get('GENSPOLIS')||[];\nconst soleil = global.get(\"BonjourBonsoir\");\n\nconst indexbonjour = cmd.indexOf(\"bonjour\");\nconst indexbonsoir = cmd.indexOf(\"bonsoir\");\n\nif(cmd.length >2){\n    msg.payload.message = \"OOF..TLDR... Ton message est trop long @\" + username;\n    return msg;\n}\n\nif (indexbonjour === 0 || indexbonjour === 1){\n    if(soleil === 0){\n        msg.payload.message = \"Euh ?? @\" + username + \" C'est le soir en fait...on dit Bonsoir !\";\n        return msg;  \n    }\n    \n    else{\n        if(gens_polis.includes(username)){\n            msg.payload.message = \"Non mais c'est bon @\" + username + \" On va pas se saluer tout le live\";\n            return msg;  \n        }\n        else{\n           msg.payload.message = \"Salut @\" + username + \" !\"; \n           gens_polis.push(username);\n           global.set('GENSPOLIS', gens_polis);\n        }\n    return msg;  \n    }\n}\n\nif (indexbonsoir=== 0 || indexbonsoir === 1){\n    if(soleil === 1){\n        msg.payload.message = \"Euh ?? @\" + unsername + \" C'est le jour en fait...on dit Bonjour !\";\n        return msg;  \n    }\n    else{\n        if(gens_polis.includes(username)){\n            msg.payload.message = \"Non mais c'est bon @\" + username + \" On va pas se saluer tout le live\";\n            return msg;  \n        }\n        else{\n        msg.payload.message = \"Salut @\" + username;\n        gens_polis.push(username);\n        global.set('GENSPOLIS', gens_polis);\n        return msg;  \n        }\n    }\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 300,
+        "y": 250,
+        "wires": [
+            [
+                "723eb4de.35f7ec"
+            ]
+        ]
+    },
+    {
+        "id": "723eb4de.35f7ec",
+        "type": "tmi-command-action",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "config": "d67e89c8.c20208",
+        "name": "",
+        "x": 470,
+        "y": 250,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "d4a37a9f.307368",
+        "type": "function",
+        "z": "a6faa0d1.3cba9",
+        "g": "45339590.1dc17c",
+        "name": "Bonjour/Bonsoir ?",
+        "func": "message = msg.payload.message.toLowerCase().split(\" \");\nusername = msg.payload.userstate.username;\ngens_polis = global.get('GENSPOLIS')||[];\nsoleil = global.get(\"BonjourBonsoir\");\n\nindexbonjour = message.indexOf(\"bonjour\");\nindexbonsoir = message.indexOf(\"bonsoir\");\n\nif (indexbonjour === 0 || indexbonjour === 1){\n    if(soleil === 0){\n    msg.payload.message = \"Euh ?? @\" + username + \"C'est le soir en fait...on dit Bonsoir !\";\n    return msg;  \n    }\n    \n    else{\n        if(gens_polis.includes(username)){\n            msg.payload.message = \"Non mais c'est bon @\" + username + \" On va pas se saluer tout le live\";\n            return msg;  \n        }\n        else{\n           msg.payload.message = \"Salut @\" + username + \" !\"; \n           gens_polis.push(username);\n           global.set('GENSPOLIS', gens_polis);\n        }\n    return msg;  \n    }\n}\n\nif (indexbonsoir=== 0 || indexbonsoir === 1){\n    if(soleil === 1){\n    msg.payload.message = \"Euh ?? @\" + unsername + \"C'est le jour en fait...on dit Bonjour !\";\n    return msg;  \n    }\n    else{\n        if(gens_polis.includes(username)){\n            msg.payload.message = \"Non mais c'est bon @\" + username + \" On va pas se saluer tout le live\";\n            return msg;  \n        }\n        else{\n        msg.payload.message = \"Salut @\" + username;\n        gens_polis.push(username);\n        global.set('GENSPOLIS', gens_polis);\n        return msg;  \n    }\n}\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 720,
+        "y": 210,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "87493360.0acec",
+        "type": "switch",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "",
+        "property": "payload.userstate['custom-reward-id']",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "a9559436-9f9e-42d6-8616-39c0a730c018",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "4082e422-9046-4d69-aa5d-8d9bb3271298",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 370,
+        "y": 110,
+        "wires": [
+            [
+                "5e5f39e6.9f9778"
+            ],
+            [
+                "722b9c5f.0c8394"
+            ]
+        ]
+    },
+    {
+        "id": "bf0c15bd.b2dde8",
+        "type": "mqtt out",
+        "z": "60e79ebe.afbc1",
+        "g": "56cdad2e.1b7df4",
+        "name": "",
+        "topic": "twitch/kallax/water/turret/01",
+        "qos": "",
+        "retain": "",
+        "broker": "bb09b041.d6734",
+        "x": 510,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "d6fdb395.fc8b1",
+        "type": "function",
+        "z": "60e79ebe.afbc1",
+        "g": "56cdad2e.1b7df4",
+        "name": "Format CMD",
+        "func": "msg.payload = {[msg.topic]:msg.payload};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 290,
+        "y": 340,
+        "wires": [
+            [
+                "bf0c15bd.b2dde8"
+            ]
+        ]
+    },
+    {
+        "id": "722b9c5f.0c8394",
+        "type": "function",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "Cher",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 510,
+        "y": 180,
+        "wires": [
+            [
+                "14abaac3.919095",
+                "ec49e8f4.d474c8"
+            ]
+        ]
+    },
+    {
+        "id": "5e5f39e6.9f9778",
+        "type": "function",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "Pas Cher",
+        "func": "return msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 510,
+        "y": 80,
+        "wires": [
+            [
+                "841edd80.65786",
+                "ec49e8f4.d474c8"
+            ]
+        ]
+    },
+    {
+        "id": "95dbcd9f.e6978",
+        "type": "mqtt out",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "",
+        "topic": "twitch/kallax/water/turret/01",
+        "qos": "",
+        "retain": "",
+        "broker": "bb09b041.d6734",
+        "x": 1160,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "14abaac3.919095",
+        "type": "delay",
+        "z": "60e79ebe.afbc1",
+        "g": "6674a553.8403ac",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "x": 670,
+        "y": 180,
+        "wires": [
+            [
+                "900bffc1.78403"
+            ]
+        ]
+    }
+]
