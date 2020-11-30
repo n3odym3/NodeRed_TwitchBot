@@ -2,7 +2,11 @@
     "name": "Neodyme_ioodyme_TwitchBot",
     "description": "Bot Twitch pour la chaine ioodyme",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-twitch-chat": "1.1.1",
+        "node-red-dashboard": "2.24.0",
+        "node-red-node-suncalc": "1.0.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_NodeRed-TwitchBot.json",
